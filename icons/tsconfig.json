@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./build/lib",
+    "emitDeclarationOnly": true,
+    "module": "ES2015",
+    "target": "ES5",
+    "lib": ["ES2017", "DOM"],
+    "jsx": "react",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "declaration": true,
+    "strict": true,
+    "noImplicitAny": true
+  },
+  "include": ["src/**/*.tsx"],
+  "exclude": ["icons"]
+}
