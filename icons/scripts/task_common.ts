@@ -22,16 +22,16 @@ export async function writeIconsManifest({ DIST, LIB, rootDir }: TaskContext) {
   await fs.writeFile(
     path.resolve(LIB, "iconsManifest.mjs"),
     `export var IconsManifest = ${manifest}`,
-    "utf8",
+    "utf8"
   );
   await fs.writeFile(
     path.resolve(LIB, "iconsManifest.js"),
     `module.exports.IconsManifest = ${manifest}`,
-    "utf8",
+    "utf8"
   );
   await fs.copyFile(
     "src/iconsManifest.d.ts",
-    path.resolve(LIB, "iconsManifest.d.ts"),
+    path.resolve(LIB, "iconsManifest.d.ts")
   );
   await fs.copyFile("src/package.json", path.resolve(LIB, "package.json"));
 }
@@ -43,13 +43,13 @@ export async function writeLicense({ DIST, LIB, rootDir }: TaskContext) {
         [
           `${icon.name} - ${icon.projectUrl}`,
           `License: ${icon.license} ${icon.licenseUrl}`,
-        ].join("\n"),
+        ].join("\n")
       )
       .join("\n\n") + "\n";
 
   await fs.copyFile(
     path.resolve(rootDir, "LICENSE_HEADER"),
-    path.resolve(DIST, "LICENSE"),
+    path.resolve(DIST, "LICENSE")
   );
   await fs.appendFile(path.resolve(DIST, "LICENSE"), iconLicenses, "utf8");
 }
@@ -64,17 +64,17 @@ export async function writeEntryPoints({ DIST, LIB, rootDir }: TaskContext) {
   await fs.appendFile(
     path.resolve(DIST, "index.js"),
     generateEntryCjs(),
-    "utf8",
+    "utf8"
   );
   await fs.appendFile(
     path.resolve(DIST, "index.mjs"),
     generateEntryMjs(),
-    "utf8",
+    "utf8"
   );
   await fs.appendFile(
     path.resolve(DIST, "index.d.ts"),
     generateEntryMjs("index"),
-    "utf8",
+    "utf8"
   );
 }
 
@@ -108,7 +108,7 @@ export async function writeIconVersions({ DIST, LIB, rootDir }: TaskContext) {
         `git describe --tags || git rev-parse HEAD`,
         {
           cwd: firstDir,
-        },
+        }
       );
       version = stdout.trim();
     }
@@ -123,7 +123,7 @@ export async function writeIconVersions({ DIST, LIB, rootDir }: TaskContext) {
   const emptyVersions = versions.filter((v) => v.count === 0);
   if (emptyVersions.length !== 0) {
     throw Error(
-      `empty icon sets: ${emptyVersions.map((v) => v.icon).join(", ")}`,
+      `empty icon sets: ${emptyVersions.map((v) => v.icon).join(", ")}`
     );
   }
 
@@ -138,7 +138,7 @@ export async function writeIconVersions({ DIST, LIB, rootDir }: TaskContext) {
             `[${v.icon.license}](${v.icon.licenseUrl})`,
             v.version,
             v.count,
-          ].join(" | ")} |`,
+          ].join(" | ")} |`
       )
       .join("\n") +
     "\n";
@@ -149,11 +149,11 @@ export async function writeIconVersions({ DIST, LIB, rootDir }: TaskContext) {
 export async function writePackageJson(
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   override: any,
-  { DIST, LIB, rootDir }: TaskContext,
+  { DIST, LIB, rootDir }: TaskContext
 ) {
   const packageJsonStr = await fs.readFile(
     path.resolve(rootDir, "package.json"),
-    "utf-8",
+    "utf-8"
   );
   let packageJson = JSON.parse(packageJsonStr);
 
@@ -173,8 +173,8 @@ export async function writePackageJson(
 
 export async function copyReadme({ DIST, LIB, rootDir }: TaskContext) {
   await fs.copyFile(
-    path.resolve(rootDir, "../../README.md"),
-    path.resolve(DIST, "README.md"),
+    path.resolve(rootDir, "../README.md"),
+    path.resolve(DIST, "README.md")
   );
 }
 
@@ -185,14 +185,14 @@ export async function buildLib({ DIST, LIB, rootDir }: TaskContext) {
     cwd: rootDir,
   };
   await Promise.all([
-    exec("yarn tsc", execOpt),
+    exec("npx tsc", execOpt),
     exec(
-      "yarn babel --config-file ./babel.config.esm.json      --extensions=.ts,.tsx ./src --ignore '**/icons/*' --ignore '**/*.d.ts' --out-dir ./build/lib --out-file-extension .mjs",
-      execOpt,
+      "npm babel --config-file ./babel.config.esm.json      --extensions=.ts,.tsx ./src --ignore '**/icons/*' --ignore '**/*.d.ts' --out-dir ./build/lib --out-file-extension .mjs",
+      execOpt
     ),
     exec(
-      "yarn babel --config-file ./babel.config.commonjs.json --extensions=.ts,.tsx ./src --ignore '**/icons/*' --ignore '**/*.d.ts' --out-dir ./build/lib --out-file-extension .js ",
-      execOpt,
+      "npm babel --config-file ./babel.config.commonjs.json --extensions=.ts,.tsx ./src --ignore '**/icons/*' --ignore '**/*.d.ts' --out-dir ./build/lib --out-file-extension .js ",
+      execOpt
     ),
   ]);
 }

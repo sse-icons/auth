@@ -1,9 +1,37 @@
 export var IconsManifest = [
   {
+    "id": "ci",
+    "name": "Circum Icons",
+    "projectUrl": "https://github.com/sse-auth/icons",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/sse-auth/icons/blob/master/LICENSE"
+  },
+  {
     "id": "fa5",
     "name": "Font Awesome 5",
-    "projectUrl": "https://fontawesome.com/",
-    "license": "CC BY 4.0 LICENSE",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+    "projectUrl": "https://github.com/sse-auth/icons",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/sse-auth/icons/blob/master/LICENSE"
+  },
+  {
+    "id": "fa6",
+    "name": "Font Awesome 6",
+    "projectUrl": "https://github.com/sse-auth/icons",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/sse-auth/icons/blob/master/LICENSE"
+  },
+  {
+    "id": "go",
+    "name": "Github Octicons icons",
+    "projectUrl": "https://github.com/sse-auth/icons",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/sse-auth/icons/blob/master/LICENSE"
+  },
+  {
+    "id": "io",
+    "name": "Ionicons 7",
+    "projectUrl": "https://github.com/sse-auth/icons",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/sse-auth/icons/blob/master/LICENSE"
   }
 ]
