@@ -142,4 +142,57 @@ export const icons: IconDefinition[] = [
       hash: "9beae745bb758f3ad56654fb377ea5cf62be4915",
     },
   },
+  {
+    id: "ti",
+    name: "Typicons",
+    contents: [
+      {
+        files: path.resolve(__dirname, "../../../svg/ti/*.svg"),
+        formatter: (name) => `Ci${name}`.replace(/_/g, "").replace(/&/g, "And"),
+      },
+    ],
+    projectUrl: "https://github.com/sse-auth/icons",
+    license: "MIT",
+    licenseUrl: "https://github.com/sse-auth/icons/blob/master/LICENSE",
+  },
+  {
+    id: "lu",
+    name: "Lucide",
+    contents: [
+      {
+        files: path.resolve(
+          path.dirname(require.resolve("lucide-static")),
+          "../icons/*.svg"
+        ),
+        formatter: (name) => `Lu${name}`,
+      },
+    ],
+    projectUrl: "https://lucide.dev/",
+    license: "ISC",
+    licenseUrl: "https://github.com/lucide-icons/lucide/blob/main/LICENSE",
+  },
+  {
+    id: "gi",
+    name: "Game Icons",
+    contents: [
+      {
+        files: path.resolve(
+          __dirname,
+          "../../sse-icons/game-icons-inverted/all-icons/*.svg"
+        ),
+        formatter: (name) => `Gi${name}`,
+      },
+    ],
+    projectUrl: "https://game-icons.net/",
+    license: "CC BY 3.0",
+    licenseUrl: "https://creativecommons.org/licenses/by/3.0/",
+    source: {
+      type: "git",
+      localName: "game-icons-inverted",
+      remoteDir: "all-icons/",
+      url: "https://github.com/delacannon/game-icons-inverted.git",
+      branch: "master",
+      hash: "12920d6565588f0512542a3cb0cdfd36a497f910",
+    },
+  },
 ];
