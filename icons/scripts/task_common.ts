@@ -187,11 +187,11 @@ export async function buildLib({ DIST, LIB, rootDir }: TaskContext) {
   await Promise.all([
     exec("npx tsc", execOpt),
     exec(
-      "npm babel --config-file ./babel.config.esm.json      --extensions=.ts,.tsx ./src --ignore '**/icons/*' --ignore '**/*.d.ts' --out-dir ./build/lib --out-file-extension .mjs",
+      "npx babel --config-file ./babel.config.esm.json --extensions=.ts,.tsx ./src --ignore '**/icons/*' --ignore '**/*.d.ts' --out-dir ./build/lib --out-file-extension .mjs",
       execOpt
     ),
     exec(
-      "npm babel --config-file ./babel.config.commonjs.json --extensions=.ts,.tsx ./src --ignore '**/icons/*' --ignore '**/*.d.ts' --out-dir ./build/lib --out-file-extension .js ",
+      "npx babel --config-file ./babel.config.commonjs.json --extensions=.ts,.tsx ./src --ignore '**/icons/*' --ignore '**/*.d.ts' --out-dir ./build/lib --out-file-extension .js ",
       execOpt
     ),
   ]);

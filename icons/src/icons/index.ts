@@ -155,44 +155,20 @@ export const icons: IconDefinition[] = [
     license: "MIT",
     licenseUrl: "https://github.com/sse-auth/icons/blob/master/LICENSE",
   },
-  {
-    id: "lu",
-    name: "Lucide",
-    contents: [
-      {
-        files: path.resolve(
-          path.dirname(require.resolve("lucide-static")),
-          "../icons/*.svg"
-        ),
-        formatter: (name) => `Lu${name}`,
-      },
-    ],
-    projectUrl: "https://lucide.dev/",
-    license: "ISC",
-    licenseUrl: "https://github.com/lucide-icons/lucide/blob/main/LICENSE",
-  },
-  {
-    id: "gi",
-    name: "Game Icons",
-    contents: [
-      {
-        files: path.resolve(
-          __dirname,
-          "../../sse-icons/game-icons-inverted/all-icons/*.svg"
-        ),
-        formatter: (name) => `Gi${name}`,
-      },
-    ],
-    projectUrl: "https://game-icons.net/",
-    license: "CC BY 3.0",
-    licenseUrl: "https://creativecommons.org/licenses/by/3.0/",
-    source: {
-      type: "git",
-      localName: "game-icons-inverted",
-      remoteDir: "all-icons/",
-      url: "https://github.com/delacannon/game-icons-inverted.git",
-      branch: "master",
-      hash: "12920d6565588f0512542a3cb0cdfd36a497f910",
-    },
-  },
+  // {
+  //   id: "lu",
+  //   name: "Lucide",
+  //   contents: [
+  //     {
+  //       files: path.resolve(
+  //         path.dirname(require.resolve("lucide-static")),
+  //         "../icons/*.svg"
+  //       ),
+  //       formatter: (name) => `Lu${name}`,
+  //     },
+  //   ],
+  //   projectUrl: "https://lucide.dev/",
+  //   license: "ISC",
+  //   licenseUrl: "https://github.com/lucide-icons/lucide/blob/main/LICENSE",
+  // },
 ];
