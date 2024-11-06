@@ -20,59 +20,59 @@ async function task(name: string, fn: () => Promise<void> | void) {
 
 async function main() {
   try {
-    // @react-icons/all
+    // @sse-auth/icons
     const allOpt: TaskContext = {
       rootDir: _rootDir,
-      DIST: path.resolve(_rootDir, "../_react-icons_all"),
-      LIB: path.resolve(_rootDir, "../_react-icons_all/lib"),
+      DIST: path.resolve(_rootDir, "../_sse-icons_all"),
+      LIB: path.resolve(_rootDir, "../_sse-icons_all/lib"),
     };
-    await task("@react-icons/all initialize", async () => {
+    await task("@sse-auth/icons initialize", async () => {
       await taskAll.dirInit(allOpt);
       await taskCommon.writeEntryPoints(allOpt);
       await taskCommon.writeIconsManifest(allOpt);
       await taskCommon.writeLicense(allOpt);
       await taskCommon.writePackageJson(
-        { name: "react-icons", exports: buildPackageExports(icons) },
+        { name: "@sse-auth/icons", exports: buildPackageExports(icons) },
         allOpt,
       );
       await taskCommon.copyReadme(allOpt);
     });
-    await task("@react-icons/all write icons", async () => {
+    await task("@sse-auth/icons write icons", async () => {
       await Promise.all(
         icons.map((icon) => taskAll.writeIconModule(icon, allOpt)),
       );
     });
 
-    // @react-icons/all-files
+    // @sse-auth/icons-files
     const filesOpt: TaskContext = {
       rootDir: _rootDir,
-      DIST: path.resolve(_rootDir, "../_react-icons_all-files"),
-      LIB: path.resolve(_rootDir, "../_react-icons_all-files/lib"),
+      DIST: path.resolve(_rootDir, "../_sse-icons_all-files"),
+      LIB: path.resolve(_rootDir, "../_sse-icons_all-files/lib"),
     };
-    await task("@react-icons/all-files initialize", async () => {
+    await task("@sse-auth/icons-files initialize", async () => {
       await taskFiles.dirInit(filesOpt);
       await taskCommon.writeEntryPoints(filesOpt);
       await taskCommon.writeIconsManifest(filesOpt);
       await taskCommon.writeLicense(filesOpt);
       await taskCommon.writePackageJson(
-        { name: "@react-icons/all-files" },
+        { name: "@sse-auth/icons-files" },
         filesOpt,
       );
       await taskCommon.copyReadme(filesOpt);
     });
-    await task("@react-icons/all-files write icons", async () => {
+    await task("@sse-auth/icons-files write icons", async () => {
       await Promise.all(
         icons.map((icon) => taskFiles.writeIconModuleFiles(icon, filesOpt)),
       );
     });
 
     // write to VERSIONS file
-    await task("react-icons_builders write icon versions", async () => {
+    await task("sse-icons_builders write icon versions", async () => {
       await taskCommon.writeIconVersions(filesOpt);
     });
 
     // write to d.ts files
-    await task("react-icons_builders build common library", async () => {
+    await task("sse-icons_builders build common library", async () => {
       await taskCommon.buildLib(filesOpt);
       await taskCommon.copyLib(allOpt);
       await taskCommon.copyLib(filesOpt);

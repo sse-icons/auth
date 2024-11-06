@@ -10,7 +10,7 @@ export var icons = [{
     files: path.resolve(__dirname, "../../../svg/ci/*.svg"),
     formatter: name => "Ci".concat(name).replace(/_/g, "").replace(/&/g, "And")
   }],
-  projectUrl: "https://github.com/sse-auth/icons",
+  projectUrl: "https://github.com/sse-auth/icons/blob/master/svg/ci",
   license: "MIT",
   licenseUrl: "https://github.com/sse-auth/icons/blob/master/LICENSE"
 }, {
@@ -23,7 +23,7 @@ export var icons = [{
     files: path.resolve(__dirname, "../../../svg/fa5/regular/*.svg"),
     formatter: name => "FaReg".concat(name)
   }],
-  projectUrl: "https://github.com/sse-auth/icons",
+  projectUrl: "https://github.com/sse-auth/icons/blob/master/svg/fa5",
   license: "MIT",
   licenseUrl: "https://github.com/sse-auth/icons/blob/master/LICENSE"
 }, {
@@ -36,7 +36,7 @@ export var icons = [{
     files: path.resolve(__dirname, "../../../svg/fa6/regular/*.svg"),
     formatter: name => "FaReg".concat(name)
   }],
-  projectUrl: "https://github.com/sse-auth/icons",
+  projectUrl: "https://github.com/sse-auth/icons/blob/master/svg/fa6",
   license: "MIT",
   licenseUrl: "https://github.com/sse-auth/icons/blob/master/LICENSE"
 }, {
@@ -46,7 +46,7 @@ export var icons = [{
     files: path.resolve(__dirname, "../../../svg/go/*.svg"),
     formatter: name => "Go".concat(name)
   }],
-  projectUrl: "https://github.com/sse-auth/icons",
+  projectUrl: "https://github.com/sse-auth/icons/blob/master/svg/go",
   license: "MIT",
   licenseUrl: "https://github.com/sse-auth/icons/blob/master/LICENSE"
 }, {
@@ -56,7 +56,7 @@ export var icons = [{
     files: path.resolve(__dirname, "../../../svg/io/*.svg"),
     formatter: name => "Io".concat(name)
   }],
-  projectUrl: "https://github.com/sse-auth/icons",
+  projectUrl: "https://github.com/sse-auth/icons/blob/master/svg/io",
   license: "MIT",
   licenseUrl: "https://github.com/sse-auth/icons/blob/master/LICENSE"
 }, {
@@ -101,9 +101,19 @@ export var icons = [{
   name: "Typicons",
   contents: [{
     files: path.resolve(__dirname, "../../../svg/ti/*.svg"),
-    formatter: name => "Ci".concat(name).replace(/_/g, "").replace(/&/g, "And")
+    formatter: name => "Ti".concat(name).replace(/_/g, "").replace(/&/g, "And")
   }],
-  projectUrl: "https://github.com/sse-auth/icons",
+  projectUrl: "https://github.com/sse-auth/icons/blob/master/svg/ti",
+  license: "MIT",
+  licenseUrl: "https://github.com/sse-auth/icons/blob/master/LICENSE"
+}, {
+  id: "sse",
+  name: "SSE Auth Icons",
+  contents: [{
+    files: path.resolve(__dirname, "../../../svg/sse/*.svg"),
+    formatter: name => "SSE".concat(name).replace(/_/g, "").replace(/&/g, "And")
+  }],
+  projectUrl: "https://github.com/sse-auth/icons/blob/master/svg/sse",
   license: "MIT",
   licenseUrl: "https://github.com/sse-auth/icons/blob/master/LICENSE"
 }
