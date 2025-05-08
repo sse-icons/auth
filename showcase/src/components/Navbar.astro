@@ -1,0 +1,82 @@
+---
+import { GitHubDark, GitHubLight, NPM } from "@sse-auth/icons";
+import { DisclaimerAlert } from "./disclaimerAlert";
+import { ThemeToggle } from "./ui/themeToggle";
+import { publicBaseUrl } from "@/config";
+import { cn } from "@/lib/utils";
+
+const url = Astro.url;
+
+const navLinks = [
+  { title: "Home", href: `/` },
+  { title: "Icons", href: `/icons/All` },
+  { title: "Docs", href: `/docs` },
+];
+
+const matchSamePage = (href: string) => {
+  if (href === "/") return url.pathname === `${publicBaseUrl}/`;
+  const baseLink = href.replace(/^(\/[^/]*).*/g, "$1");
+  return url.pathname.startsWith(publicBaseUrl + baseLink);
+};
+---
+
+<div
+  class="navbar flex items-center justify-between py-3 px-8 bg-zinc-100 dark:bg-zinc-900 sticky top-0"
+>
+  <a href={publicBaseUrl} class="flex items-center gap-2">
+    <img
+      src={`${publicBaseUrl}/favicon.svg`}
+      width="30"
+      height="30"
+      alt="Developer Icons Logo"
+      class="rounded"
+    />
+    <span
+      class="hidden md:inline-block font-semibold text-lg text-zinc-900 dark:text-zinc-100"
+      >Developer Icons</span
+    >
+  </a>
+  <nav class="flex items-center justify-end gap-6 font-medium">
+    <DisclaimerAlert client:load url={url} />
+
+    <ThemeToggle client:load />
+
+    <span
+      class="hidden lg:inline-block w-[1px] h-4 bg-zinc-300 dark:bg-zinc-700"
+    ></span>
+
+    {
+      navLinks.map((link, index) => (
+        <a
+          href={publicBaseUrl + link.href}
+          class={cn(
+            "hidden lg:inline-block hover:text-sky-800 dark:hover:text-sky-200",
+            matchSamePage(link.href) && "text-sky-500"
+          )}
+        >
+          {link.title}
+        </a>
+      ))
+    }
+
+    <span class="inline-block w-[1px] h-4 bg-zinc-300 dark:bg-zinc-700"></span>
+
+    <a
+      href="https://github.com/sse-auth/icons"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-block pb-1"
+    >
+      <GitHubLight size={20} className="hidden dark:inline-block" />
+      <GitHubDark size={20} className="inline-block dark:hidden" />
+    </a>
+    <a
+      href="https://www.npmjs.com/package/@sse-auth/icons"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-block"
+    >
+      <NPM size={20} /></a
+    >
+  </nav>
+</div>

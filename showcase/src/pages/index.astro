@@ -1,0 +1,20 @@
+---
+import Layout from "../layouts/Layout.astro";
+import FeatureSection from "@/components/FeatureSection.astro";
+import HeroSection from "@/components/HeroSection.astro";
+import { InstallCmd } from "@/components/ui/installCmd";
+---
+
+<Layout title="Developer Icons | Easy-to-use customizable tech icons">
+  <main
+    class="w-full lg:px-12 flex flex-col justify-between gap-[2vh] 2xl:max-w-[1536px]"
+  >
+    <HeroSection />
+
+    <FeatureSection />
+
+    <div class="flex items-center justify-center my-2">
+      <InstallCmd client:load />
+    </div>
+  </main></Layout
+>

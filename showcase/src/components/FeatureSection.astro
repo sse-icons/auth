@@ -1,0 +1,58 @@
+---
+import {
+  Fingerprint,
+  PackageOpen,
+  Pickaxe,
+  Scaling,
+  Shapes,
+  ShieldCheck,
+} from "lucide-react";
+
+const features = [
+  {
+    title: "Highly Optimized",
+    desc: "Icons are optimized for performance and size. They are designed to be as small as possible while maintaining the quality.",
+  },
+  {
+    title: "Customizable",
+    desc: "Cusomizations are available for all icons. You can change the size, color, stroke width, and much more.",
+  },
+  {
+    title: "Perfectly Scalable",
+    desc: "Icons are designed to be properly scaled to any size without compromising the quality.",
+  },
+  {
+    title: "Consistent Icons",
+    desc: "No more dealing with inconsistent styles and designs. All icons are designed with a pre-defined set of rules.",
+  },
+  {
+    title: "Various Variants",
+    desc: "Icons come with their own set of families such as light and dark mode, wordmark, and other variants.",
+  },
+  {
+    title: "Free & Open-Source",
+    desc: "Completely free and open-source with license. No need to worry about privately hidden malicious code and be a contributor yourself.",
+  },
+];
+---
+
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+  {
+    features.map((feature) => (
+      <div class="flex flex-col gap-3 bg-gradient-to-br from-zinc-200/75 to-zinc-200 dark:from-zinc-800 dark:to-[#27272a77] p-5 rounded-xl">
+        <div class="p-3 bg-white dark:bg-zinc-900 rounded-lg w-fit text-2xl text-sky-500 pointer-events-none">
+          {feature.title === "Highly Optimized" && "⚡"}
+          {feature.title === "Customizable" && "🎨"}
+          {feature.title === "Perfectly Scalable" && "🚀"}
+          {feature.title === "Consistent Icons" && "🎯"}
+          {feature.title === "Various Variants" && "🌗"}
+          {feature.title === "Free & Open-Source" && "⭐"}
+        </div>
+        <h3 class="text-lg font-semibold text-zinc-900 dark:text-zinc-100">
+          {feature.title}
+        </h3>
+        <p class="text-zinc-700 dark:text-zinc-400">{feature.desc}</p>
+      </div>
+    ))
+  }
+</div>
