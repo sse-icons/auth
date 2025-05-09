@@ -2,6 +2,32 @@
   "name": "@sse-auth/icons",
   "version": "2.0.0",
   "description": "A collection of well-optimized SVG tech logos for developers and designers—customizable, scalable, and free.",
+  "type": "module",
+  "homepage": "https://sse-auth.github.io/icons",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sse-auth/icons.git"
+  },
+  "author": "SSE World",
+  "license": "MIT",
+  "keywords": [
+    "svg",
+    "oauth",
+    "icons",
+    "logos",
+    "react",
+    "vite",
+    "sse-auth",
+    "credentials"
+  ],
+  "bugs": {
+    "url": "https://github.com/sse-auth/icons/issues"
+  },
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev:playground": "vite",
     "dev:showcase": "cd showcase && npm run dev",
@@ -15,21 +41,10 @@
     "sort:data": "tsx ./lib/scripts/sortData.ts",
     "optimize-svgs": "svgo -f ./icons/raw -o ./icons && rimraf --glob icons/raw/*"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sse-auth/icons.git"
+  "peerDependencies": {
+    "react": "^18.2.0 || ^19.0.0",
+    "react-dom": "^18.2.0 || ^19.0.0"
   },
-  "author": "SSE World",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sse-auth/icons/issues"
-  },
-  "main": "dist/main.js",
-  "types": "dist/main.d.ts",
-  "files": [
-    "dist"
-  ],
-  "homepage": "https://github.com/sse-auth/icons#readme",
   "devDependencies": {
     "@types/node": "^22.15.16",
     "@types/react": "^19.1.3",
