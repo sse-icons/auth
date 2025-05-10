@@ -38,7 +38,8 @@
     "preview": "vite preview",
     "preview:showcase": "cd showcase && npm run preview",
     "prePublishOnly": "npm run build",
-    "sort:data": "tsx ./lib/scripts/sortData.ts",
+    "data:sort": "tsx ./lib/scripts/sortData.ts",
+    "data:count": "tsx ./lib/scripts/countIcons.ts",
     "optimize-svgs": "svgo -f ./icons/raw -o ./icons && rimraf --glob icons/raw/*"
   },
   "peerDependencies": {
