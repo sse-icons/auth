@@ -1,4 +1,4 @@
-import { SVGProps, createElement } from "react";
+import { type SVGProps, createElement } from "react";
 import { mergeClassNames } from "./utils";
 import { defaultAttributes } from "./constants";
 
