@@ -3,6 +3,7 @@ import react from "@astrojs/react";
 import partytown from "@astrojs/partytown";
 import sitemap from "@astrojs/sitemap";
 import rootPkg from "../package.json";
+import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
@@ -23,5 +24,6 @@ export default defineConfig({
       },
     }),
     sitemap(),
+    tailwind({ applyBaseStyles: false }),
   ],
 });

@@ -1,5 +1,5 @@
-// import DI from "../../../../dist/main";
-import DI from "@sse-auth/icons";
+// import SI from "../../../../dist/main";
+import SI from "@sse-auth/icons";
 import React, { useEffect, useState, type ReactNode } from "react";
 import { Copy, Copyright, Download } from "lucide-react";
 import type { IconDataType } from "../../../../lib/iconsData";
@@ -18,7 +18,7 @@ export const IconCard = ({ icon }: { icon: IconDataType }) => {
   const [showCopied, setShowCopied] = useState(false);
   const [activeTooltip, setActiveTooltip] = useState<ActiveTooltipType>();
 
-  const DynamicIcon = DI[generateIconCompName(icon.name)] as React.ElementType;
+  const DynamicIcon = SI[generateIconCompName(icon.name)] as React.ElementType;
 
   const copyComponent = (iconName: string) => {
     const compName = generateIconCompName(iconName);
