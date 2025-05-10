@@ -6,7 +6,7 @@ order: 1
 
 # Introduction
 
-Welcome to **`@sse-auth/icons`**, a collection of high-quality, customizable tech icons designed for developers and designers. With full TypeScript support, these icons are perfect for use in any React or Next.js project. Alternatively, download the icons in image formats for your design needs directly from our [official website](https://sse-auth.github.io/icons/ "Homepage | Developer Icons").
+Welcome to **`@sse-auth/icons`**, a collection of high-quality, customizable tech icons designed for developers and designers. With full TypeScript support, these icons are perfect for use in any React or Next.js project. Alternatively, download the icons in image formats for your design needs directly from our [official website](https://sse-auth.github.io/icons/ "Homepage | SSE Icons").
 
 ## Features
 
