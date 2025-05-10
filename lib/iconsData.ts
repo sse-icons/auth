@@ -184,11 +184,11 @@ export const iconsData: IconDataType[] = [
     url: "https://clickup.com/",
   },
   {
-    id: "clickup-light-watermark",
+    id: "clickup-dark-watermark",
     name: "Clickup Dark Watermark",
-    path: "icons/clickup-light-watermark.svg",
+    path: "icons/clickup-dark-watermark.svg",
     categories: ["OAuth"],
-    keywords: ["clickup-light-watermark", "oauth"],
+    keywords: ["clickup-dark-watermark", "oauth"],
     url: "https://clickup.com/",
   },
 ];
