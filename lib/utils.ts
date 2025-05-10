@@ -1,4 +1,4 @@
-import DI from "./main";
+import SI from "./main";
 
 export const capitalizeFirstletter = (str: string, invert?: boolean) =>
   invert
@@ -15,5 +15,5 @@ export const generateIconCompName = (initialName: string) => {
     .split(/[-. ]+/)
     .map((item) => capitalizeFirstletter(item))
     .join("");
-  return iconName as keyof typeof DI;
+  return iconName as keyof typeof SI;
 };

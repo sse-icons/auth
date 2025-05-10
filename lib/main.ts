@@ -1,3 +1,3 @@
-import * as DI from "./icons";
+import * as SI from "./icons";
 export * from "./icons";
-export default DI;
+export default SI;
