@@ -2,8 +2,11 @@ export const categoriesData = [
   "OAuth",
   "OIDC",
   "Email",
+  "Adapter",
   // "WebAuthn",
   // "Credentials",
+  "Magic Links",
+  "Others"
 ] as const;
 
 export const iconsData: IconDataType[] = [
@@ -534,6 +537,310 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["notion", "oauth"],
     url: "https://www.notion.com/",
+  },
+  {
+    id: "okta-light",
+    name: "Okta Light",
+    path: "icons/okta-light.svg",
+    categories: ["OAuth"],
+    keywords: ["okta", "light", "oauth"],
+    url: "https://www.okta.com"
+  },
+  {
+    id: "okta-dark",
+    name: "Okta Dark",
+    path: "icons/okta-dark.svg",
+    categories: ["OAuth"],
+    keywords: ["okta", "dark", "oauth"],
+    url: "https://www.okta.com"
+  },
+  {
+    id: "onelogin",
+    name: "Onelogin",
+    path: "icons/onelogin.svg",
+    categories: ["OAuth"],
+    keywords: ["onelogin", "oauth"],
+    url: "https://www.onelogin.com"
+  },
+  {
+    id: "osso",
+    name: "Osso",
+    path: "icons/osso.svg",
+    categories: ["OAuth"],
+    keywords: ["osso", "oauth"],
+    url: "https://github.com/enterprise-oss/osso"
+  },
+  {
+    id: "osu",
+    name: "Osu",
+    path: "icons/osu.svg",
+    categories: ["OAuth"],
+    keywords: ["osu", "oauth"],
+    url: "https://osu.ppy.sh/"
+  },
+  {
+    id: "passage",
+    name: "Passage",
+    path: "icons/passage.svg",
+    categories: ["OAuth"],
+    keywords: ["passage", "oauth"],
+    url: "https://www.passage.id"
+  },
+  {
+    id: "patreon-dark",
+    name: "Patreon Dark",
+    path: "icons/patreon-dark.svg",
+    categories: ["OAuth"],
+    keywords: ["patreon", "dark", "oauth"],
+    url: "https://www.patreon.com"
+  },
+  {
+    id: "patreon-light",
+    name: "Patreon Light",
+    path: "icons/patreon-light.svg",
+    categories: ["OAuth"],
+    keywords: ["patreon", "light", "oauth"],
+    url: "https://www.patreon.com"
+  },
+  {
+    id: "pinterest",
+    name: "Pinterest",
+    path: "icons/pinterest.svg",
+    categories: ["OAuth"],
+    keywords: ["pinterest", "oauth"],
+    url: "https://www.pinterest.com"
+  },
+  {
+    id: "postmark",
+    name: "Postmark",
+    path: "icons/postmark.svg",
+    categories: ["OAuth"],
+    keywords: ["postmark", "oauth"],
+    url: "https://www.postmarkapp.com"
+  },
+  {
+    id: "pipedrive",
+    name: "Pipedrive",
+    path: "icons/pipedrive.svg",
+    categories: ["OAuth"],
+    keywords: ["pipedrive", "oauth"],
+    url: "https://pipedrive.readme.io/"
+  },
+  {
+    id: "reddit",
+    name: "Reddit",
+    path: "icons/reddit.svg",
+    categories: ["OAuth"],
+    keywords: ["reddit", "oauth"],
+    url: "https://www.reddit.com"
+  },
+  {
+    id: "resend-dark",
+    name: "Resend Dark",
+    path: "icons/resend-dark.svg",
+    categories: ["OAuth"],
+    keywords: ["resend", "dark", "oauth"],
+    url: "https://www.resend.com"
+  },
+  {
+    id: "resend-light",
+    name: "Resend Light",
+    path: "icons/resend-light.svg",
+    categories: ["OAuth"],
+    keywords: ["resend", "light", "oauth"],
+    url: "https://www.resend.com"
+  },
+  {
+    id: "sailpoint",
+    name: "Sailpoint",
+    path: "icons/sailpoint.svg",
+    categories: ["OAuth"],
+    keywords: ["sailpoint", "oauth"],
+    url: "https://www.sailpoint.com"
+  },
+  {
+    id: "salesforce",
+    name: "Salesforce",
+    path: "icons/salesforce.svg",
+    categories: ["OAuth"],
+    keywords: ["salesforce", "oauth"],
+    url: "https://www.salesforce.com"
+  },
+  {
+    id: "sendgrid",
+    name: "Sendgrid",
+    path: "icons/sendgrid.svg",
+    categories: ["Magic Links"],
+    keywords: ["sendgrid", "oauth"],
+    url: "https://www.sendgrid.com"
+  },
+  {
+    id: "simplelogin",
+    name: "SimpleLogin",
+    path: "icons/simplelogin.svg",
+    categories: ["OAuth"],
+    keywords: ["simplelogin", "oauth"],
+    url: "https://www.simplelogin.io"
+  },
+  {
+    id: "slack",
+    name: "Slack",
+    path: "icons/slack.svg",
+    categories: ["OAuth"],
+    keywords: ["slack", "oauth"],
+    url: "https://www.slack.com"
+  },
+  {
+    id: "spotify",
+    name: "Spotify",
+    path: "icons/spotify.svg",
+    categories: ["OAuth"],
+    keywords: ["spotify", "oauth"],
+    url: "https://www.spotify.com"
+  },
+  {
+    id: "strava",
+    name: "Strava",
+    path: "icons/strava.svg",
+    categories: ["OAuth"],
+    keywords: ["strava", "oauth"],
+    url: "https://www.strava.com"
+  },
+  {
+    id: "threads",
+    name: "Threads",
+    path: "icons/threads.svg",
+    categories: ["OAuth"],
+    keywords: ["threads", "oauth"],
+    url: "https://developers.facebook.com/docs/threads"
+  },
+  {
+    id: "tiktok",
+    name: "Tiktok",
+    path: "icons/tiktok.svg",
+    categories: ["OAuth"],
+    keywords: ["tiktok", "oauth"],
+    url: "https://www.tiktok.com"
+  },
+  {
+    id: "todoist",
+    name: "Todoist",
+    path: "icons/todoist.svg",
+    categories: ["OAuth"],
+    keywords: ["todoist", "oauth"],
+    url: "https://www.todoist.com"
+  },
+  {
+    id: "trakt",
+    name: "Trakt",
+    path: "icons/trakt.svg",
+    categories: ["OAuth"],
+    keywords: ["trakt", "oauth"],
+    url: "https://trakt.docs.apiary.io/#reference/authentication-oauth"
+  },
+  {
+    id: "twitch",
+    name: "Twitch",
+    path: "icons/twitch.svg",
+    categories: ["OAuth"],
+    keywords: ["twitch", "oauth"],
+    url: "https://www.twitch.tv"
+  },
+  {
+    id: "twitter",
+    name: "Twitter",
+    path: "icons/twitter.svg",
+    categories: ["OAuth"],
+    keywords: ["twitter", "oauth"],
+    url: "https://www.x.com"
+  },
+  {
+    id: "united-effects",
+    name: "United Effects",
+    path: "icons/united-effects.svg",
+    categories: ["OAuth"],
+    keywords: ["united-effects", "oauth"],
+    url: "https://www.ue.ventures/"
+  },
+  {
+    id: "vipps-mobilepay",
+    name: "Vipps Mobilepay",
+    path: "icons/vipps-mobilepay.svg",
+    categories: ["OAuth"],
+    keywords: ["vipps-mobilepay", "oauth"],
+    url: "https://www.vippsmobilepay.com"
+  },
+  {
+    id: "vk",
+    name: "VK",
+    path: "icons/vk.svg",
+    categories: ["OAuth"],
+    keywords: ["vk", "oauth"],
+    url: "https://www.vk.com"
+  },
+  {
+    id: "webex",
+    name: "Webex",
+    path: "icons/webex.svg",
+    categories: ["OAuth"],
+    keywords: ["webex", "oauth"],
+    url: "https://www.webex.com"
+  },
+  {
+    id: "wikimedia",
+    name: "Wikimedia",
+    path: "icons/wikimedia.svg",
+    categories: ["OAuth"],
+    keywords: ["wikimedia", "oauth"],
+    url: "https://www.wikimedia.org"
+  },
+  {
+    id: "wordpress",
+    name: "WordPress",
+    path: "icons/wordpress.svg",
+    categories: ["OAuth"],
+    keywords: ["wordpress", "oauth"],
+    url: "https://www.wordpress.com"
+  },
+  {
+    id: "workos",
+    name: "WorkOS",
+    path: "icons/workos.svg",
+    categories: ["OAuth"],
+    keywords: ["workos", "oauth"],
+    url: "https://www.workos.com"
+  },
+  {
+    id: "yandex",
+    name: "Yandex",
+    path: "icons/yandex.svg",
+    categories: ["OAuth"],
+    keywords: ["yandex", "oauth"],
+    url: "https://www.yandex.com"
+  },
+  {
+    id: "zitadel",
+    name: "Zitadel",
+    path: "icons/zitadel.svg",
+    categories: ["OAuth"],
+    keywords: ["zitadel", "oauth"],
+    url: "https://www.zitadel.com"
+  },
+  {
+    id: "zoho",
+    name: "Zoho",
+    path: "icons/zoho.svg",
+    categories: ["OAuth"],
+    keywords: ["zoho", "oauth"],
+    url: "https://www.zoho.com"
+  },
+  {
+    id: "zoom",
+    name: "Zoom",
+    path: "icons/zoom.svg",
+    categories: ["OAuth"],
+    keywords: ["zoom", "oauth"],
+    url: "https://www.zoom.us"
   },
 ];
 

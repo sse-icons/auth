@@ -51,3 +51,11 @@ jobs:
             dist/icons/index.d.ts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Create Github Release"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VERSION=$(echo ${{ github.ref_name }} | sed 's/^v//')  # Remove 'v' from the version
+          PRE_RELEASE=$([[ ${{ github.ref_name }} =~ alpha|beta ]] && echo "-p" || echo "")
+          gh release create ${{ github.ref_name }} $PRE_RELEASE -t "${{ github.ref_name }}" -d --notes " " -R ${{ github.repository }} 
