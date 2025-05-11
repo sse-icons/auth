@@ -1,4 +1,4 @@
-import { PnpmDark, PnpmLight } from "../dist/main";
+import { Keycloak, PnpmLight } from "../dist/main";
 import "./App.css";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
           padding: "10px",
         }}
       >
-        <PnpmDark size={150} />
+        <Keycloak size={150} />
       </div>
       <div
         style={{
