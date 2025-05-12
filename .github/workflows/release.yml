@@ -38,19 +38,19 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - name: Create GitHub Release
-        uses: softprops/action-gh-release@v1
-        with:
-          tag_name: ${{ github.ref_name }}
-          draft: true
-          body: |
-            Changes in this release:
-            - New version published to npm: ${{ github.ref }}
-          files: |
-            dist/*.js
-            dist/icons/index.d.ts
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Create GitHub Release
+      #uses: softprops/action-gh-release@v1
+      #with:
+      #  tag_name: ${{ github.ref_name }}
+      #  draft: true
+      #  body: |
+      #    Changes in this release:
+      #   - New version published to npm: ${{ github.ref }}
+      #  files: |
+      #    dist/*.js
+      #    dist/icons/index.d.ts
+      # env:
+      #  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: "Create Github Release"
         env:
@@ -58,4 +58,13 @@ jobs:
         run: |
           VERSION=$(echo ${{ github.ref_name }} | sed 's/^v//')  # Remove 'v' from the version
           PRE_RELEASE=$([[ ${{ github.ref_name }} =~ alpha|beta ]] && echo "-p" || echo "")
-          gh release create ${{ github.ref_name }} $PRE_RELEASE -t "${{ github.ref_name }}" -d --notes " " -R ${{ github.repository }} 
+          gh release create ${{ github.ref_name }} $PRE_RELEASE -t "${{ github.ref_name }}" -d --notes " " -R ${{ github.repository }}
+
+      - name: "Create A Branch"
+        uses: lablnet/create-branch-from-tag@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          owner: ${{ github.repository_owner }}
+          repo: ${{ github.event.repository.name }}
