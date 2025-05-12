@@ -919,6 +919,230 @@ export const iconsData: IconDataType[] = [
     keywords: ["zoom", "oauth"],
     url: "https://www.zoom.us"
   },
+  {
+    id: "azure-tables",
+    name: "Azure Tables",
+    path: "icons/azure-tables.svg",
+    categories: ["Adapter"],
+    keywords: ["azure-tables", "adapter"],
+    url: "https://azure.microsoft.com/en-us/products/storage/tables"
+  },
+  {
+    id: "d1",
+    name: "Cloudflare D1",
+    path: "icons/d1.svg",
+    categories: ["Adapter"],
+    keywords: ["d1", "adapter"],
+    url: "https://www.developers.cloudflare.com/d1"
+  },
+  {
+    id: "dgraph",
+    name: "Dgraph",
+    path: "icons/dgraph.svg",
+    categories: ["Adapter"],
+    keywords: ["dgraph", "adapter"],
+    url: "https://www.dgraph.io/"
+  },
+  {
+    id: "drizzle",
+    name: "Drizzle ORM",
+    path: "icons/drizzle.svg",
+    categories: ["Adapter"],
+    keywords: ["drizzle", "adapter"],
+    url: "https://orm.drizzle.team/"
+  },
+  {
+    id: "dynamodb",
+    name: "DynamoDB",
+    path: "icons/dynamodb.svg",
+    categories: ["Adapter"],
+    keywords: ["dynamodb", "adapter"],
+    url: "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html"
+  },
+  {
+    id: "edgedb",
+    name: "EdgeDB",
+    path: "icons/edgedb.svg",
+    categories: ["Adapter"],
+    keywords: ["edgedb", "adapter"],
+    url: "https://www.edgedb.com/"
+  },
+  {
+    id: "fauna",
+    name: "Fauna",
+    path: "icons/fauna.svg",
+    categories: ["Adapter"],
+    keywords: ["fauna", "adapter"],
+    url: "https://www.fauna.com/"
+  },
+  {
+    id: "firebase",
+    name: "Firebase Firestore",
+    path: "icons/firebase.svg",
+    categories: ["Adapter"],
+    keywords: ["firebase", "adapter"],
+    url: "https://www.firebase.google.com/"
+  },
+  {
+    id: "hasura-dark",
+    name: "Hasura Dark",
+    path: "icons/hasura-dark.svg",
+    categories: ["Adapter"],
+    keywords: ["hasura", "dark", "adapter"],
+    url: "https://www.hasura.io/"
+  },
+  {
+    id: "hasura-light",
+    name: "Hasura Light",
+    path: "icons/hasura-light.svg",
+    categories: ["Adapter"],
+    keywords: ["hasura", "light", "adapter"],
+    url: "https://www.hasura.io/"
+  },
+  {
+    id: "kysely",
+    name: "Kysely",
+    path: "icons/kysely.svg",
+    categories: ["Adapter"],
+    keywords: ["kysely", "adapter"],
+    url: "https://www.kysely.dev/"
+  },
+  {
+    id: "mikro-orm",
+    name: "MikroORM",
+    path: "icons/mikro-orm.svg",
+    categories: ["Adapter"],
+    keywords: ["mikro-orm", "adapter"],
+    url: "https://www.mikro-orm.io/"
+  },
+  {
+    id: "mongodb",
+    name: "MongoDB",
+    path: "icons/mongodb.svg",
+    categories: ["Adapter"],
+    keywords: ["mongodb", "adapter"],
+    url: "https://www.mongodb.com/"
+  },
+  {
+    id: "neo4j",
+    name: "Neo4j",
+    path: "icons/neo4j.svg",
+    categories: ["Adapter"],
+    keywords: ["neo4j", "adapter"],
+    url: "https://www.neo4j.com/"
+  },
+  {
+    id: "neon",
+    name: "Neon",
+    path: "icons/neon.svg",
+    categories: ["Adapter"],
+    keywords: ["neon", "adapter"],
+    url: "https://www.neon.tech/"
+  },
+  {
+    id: "pg",
+    name: "PostgreSQL",
+    path: "icons/pg.svg",
+    categories: ["Adapter"],
+    keywords: ["pg", "adapter"],
+    url: "https://www.postgresql.org/"
+  },
+  {
+    id: "pouchdb",
+    name: "PouchDB",
+    path: "icons/pouchdb.svg",
+    categories: ["Adapter"],
+    keywords: ["pouchdb", "adapter"],
+    url: "https://www.pouchdb.com/"
+  },
+  {
+    id: "prisma-dark",
+    name: "Prisma Dark",
+    path: "icons/prisma-dark.svg",
+    categories: ["Adapter"],
+    keywords: ["prisma", "dark", "adapter"],
+    url: "https://www.prisma.io/"
+  },
+  {
+    id: "prisma-light",
+    name: "Prisma Light",
+    path: "icons/prisma-light.svg",
+    categories: ["Adapter"],
+    keywords: ["prisma", "light", "adapter"],
+    url: "https://www.prisma.io/"
+  },
+  {
+    id: "sequelize",
+    name: "Sequelize",
+    path: "icons/sequelize.svg",
+    categories: ["Adapter"],
+    keywords: ["sequelize", "adapter"],
+    url: "https://www.sequelize.org/"
+  },
+  {
+    id: "supabase",
+    name: "Supabase",
+    path: "icons/supabase.svg",
+    categories: ["Adapter"],
+    keywords: ["supabase", "adapter"],
+    url: "https://www.supabase.com/"
+  },
+  {
+    id: "surrealdb",
+    name: "SurrealDB",
+    path: "icons/surrealdb.svg",
+    categories: ["Adapter"],
+    keywords: ["surrealdb", "adapter"],
+    url: "https://www.surrealdb.com/"
+  },
+  {
+    id: "typeorm",
+    name: "TypeORM",
+    path: "icons/typeorm.svg",
+    categories: ["Adapter"],
+    keywords: ["typeorm", "adapter"],
+    url: "https://www.typeorm.io/"
+  },
+  {
+    id: "unstorage",
+    name: "Unstorage",
+    path: "icons/unstorage.svg",
+    categories: ["Adapter"],
+    keywords: ["unstorage", "adapter"],
+    url: "https://www.unstorage.unjs.io/"
+  },
+  {
+    id: "upstash-redis",
+    name: "Upstash Redis",
+    path: "icons/upstash-redis.svg",
+    categories: ["Adapter"],
+    keywords: ["upstash-redis", "adapter"],
+    url: "https://docs.upstash.com/redis"
+  },
+  {
+    id: "xata",
+    name: "Xata",
+    path: "icons/xata.svg",
+    categories: ["Adapter"],
+    keywords: ["xata", "adapter"],
+    url: "https://www.xata.io/"
+  },
+  {
+    id: "signout",
+    name: "Sign Out",
+    path: "icons/signout.svg",
+    categories: ["Others"],
+    keywords: ["signout", "others"],
+    url: "https://www.example.com/"
+  },
+  // {
+  //   id: "",
+  //   name: "",
+  //   path: "icons/.svg",
+  //   categories: ["Adapter"],
+  //   keywords: ["", "adapter"],
+  //   url: "https://www..com/"
+  // },
 ];
 
 export type Category = (typeof categoriesData)[number];
