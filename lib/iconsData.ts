@@ -12,6 +12,12 @@ export const iconsData: IconDataType[] = [
     name: "School 42 Dark",
     path: "icons/42-school-dark.svg",
     categories: ["OAuth"],
+    version: "v2.0.1",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
     keywords: ["42", "school", "dark", "oauth"],
     url: "https://www.42.fr/en/",
   },
@@ -20,6 +26,12 @@ export const iconsData: IconDataType[] = [
     name: "School 42 Light",
     path: "icons/42-school-light.svg",
     categories: ["OAuth"],
+    version: "v2.0.1",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
     keywords: ["42", "school", "light", "oauth"],
     url: "https://www.42.fr/en/",
   },
@@ -28,6 +40,12 @@ export const iconsData: IconDataType[] = [
     name: "Apple Dark",
     path: "icons/apple-dark.svg",
     categories: ["OIDC"],
+    version: "v2.0.1",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
     keywords: ["apple", "dark", "oauth", "OIDC"],
     url: "https://www.apple.com/",
   },
@@ -35,6 +53,12 @@ export const iconsData: IconDataType[] = [
     id: "apple-light",
     name: "Apple Light",
     path: "icons/apple-light.svg",
+    version: "v2.0.1",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
     categories: ["OIDC"],
     keywords: ["apple", "light", "oauth", "OIDC"],
     url: "https://www.apple.com/",
@@ -44,6 +68,12 @@ export const iconsData: IconDataType[] = [
     name: "Asgardeo",
     path: "icons/asgardeo.svg",
     categories: ["OIDC"],
+    version: "v2.0.1",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
     keywords: ["asgardeo", "oauth"],
     url: "https://www.asgardeo.io/",
   },
@@ -54,6 +84,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OIDC"],
     keywords: ["auth0", "oauth"],
     url: "https://auth0.com/",
+    version: "v2.0.1",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "github-dark",
@@ -62,6 +98,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["github", "dark", "oauth"],
     url: "https://github.com/",
+    version: "v2.0.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "github-light",
@@ -70,6 +112,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["github", "light", "oauth"],
     url: "https://github.com/",
+    version: "v2.0.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "npm",
@@ -78,6 +126,12 @@ export const iconsData: IconDataType[] = [
     categories: ["Others"],
     keywords: ["npm", "others", "oauth"],
     url: "https://www.npmjs.com/",
+    version: "v2.0.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "pnpm-dark",
@@ -86,6 +140,12 @@ export const iconsData: IconDataType[] = [
     categories: ["Others"],
     keywords: ["pnpm", "dark", "Others"],
     url: "https://pnpm.io/",
+    version: "v2.0.1",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "pnpm-light",
@@ -94,6 +154,12 @@ export const iconsData: IconDataType[] = [
     categories: ["Others"],
     keywords: ["pnpm", "light", "Others"],
     url: "https://pnpm.io/",
+    version: "v2.0.1",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "authentik",
@@ -102,6 +168,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OIDC"],
     keywords: ["authentik", "oidc"],
     url: "https://goauthentik.io/",
+    version: "v2.0.1",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "azure",
@@ -110,6 +182,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OIDC"],
     keywords: ["azure", "oauth"],
     url: "https://azure.microsoft.com",
+    version: "v2.0.1",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "bankid-no",
@@ -118,6 +196,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OIDC"],
     keywords: ["bankid-no", "oauth"],
     url: "https://bankid.no/",
+    version: "v2.0.1",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "battlenet",
@@ -126,6 +210,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OIDC"],
     keywords: ["battlenet", "oauth"],
     url: "https://battle.net/",
+    version: "v2.0.1",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "beyondidentity",
@@ -134,6 +224,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OIDC"],
     keywords: ["beyondidentity", "oauth"],
     url: "https://www.beyondidentity.com/",
+    version: "v2.0.1",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "bitbucket",
@@ -142,6 +238,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["bitbucket", "oauth"],
     url: "https://bitbucket.org/",
+    version: "v2.0.1",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "bitly",
@@ -149,7 +251,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/bitly.svg",
     categories: ["OAuth"],
     keywords: ["bitly", "oauth"],
-    url: "https://www.bitly.com/"
+    url: "https://www.bitly.com/",
+    version: "v2.3.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "box",
@@ -158,6 +266,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["box", "oauth"],
     url: "https://www.box.com/",
+    version: "v2.0.1",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "boxyhq-saml",
@@ -166,6 +280,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["boxyhq-saml", "oauth"],
     url: "https://boxyhq.com/",
+    version: "v2.0.1",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "bungie",
@@ -174,6 +294,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["bungie", "oauth"],
     url: "https://www.bungie.net/",
+    version: "v2.0.1",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "clickup-light-watermark",
@@ -182,6 +308,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["clickup-light-watermark", "oauth"],
     url: "https://clickup.com/",
+    version: "v2.0.1",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "clickup-dark-watermark",
@@ -190,6 +322,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["clickup-dark-watermark", "oauth"],
     url: "https://clickup.com/",
+    version: "v2.0.1",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "cognito",
@@ -198,6 +336,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OIDC"],
     keywords: ["cognito", "oauth"],
     url: "https://aws.amazon.com/cognito/",
+    version: "v2.0.1",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "coinbase",
@@ -206,6 +350,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["coinbase", "oauth"],
     url: "https://www.coinbase.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "descope",
@@ -214,6 +364,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OIDC"],
     keywords: ["descope", "oauth"],
     url: "https://www.descope.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "discord",
@@ -222,6 +378,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["discord", "oauth"],
     url: "https://discord.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "dribbble",
@@ -230,6 +392,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["dribbble", "oauth"],
     url: "https://dribbble.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "dropbox",
@@ -238,6 +406,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["dropbox", "oauth"],
     url: "https://www.dropbox.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "duende-identity-dark",
@@ -246,6 +420,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OIDC"],
     keywords: ["duende-identity-dark", "oauth"],
     url: "https://duendesoftware.com/products/identityserver",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "duende-identity-light",
@@ -254,6 +434,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OIDC"],
     keywords: ["duende-identity-light", "oauth"],
     url: "https://duendesoftware.com/products/identityserver",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "eventbrite",
@@ -262,6 +448,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["eventbrite", "oauth"],
     url: "https://www.eventbrite.com/",
+    version: "v2.3.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "eveonline",
@@ -270,6 +462,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["eveonline", "oauth"],
     url: "https://www.eveonline.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "facebook",
@@ -278,6 +476,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["facebook", "oauth"],
     url: "https://www.facebook.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "faceit",
@@ -286,6 +490,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["faceit", "oauth"],
     url: "https://www.faceit.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "figma",
@@ -294,6 +504,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["figma", "oauth"],
     url: "https://www.figma.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "forwardemail",
@@ -302,6 +518,12 @@ export const iconsData: IconDataType[] = [
     categories: ["Email"],
     keywords: ["forwardemail", "oauth"],
     url: "https://forwardemail.net/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "foursquare",
@@ -310,6 +532,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["foursquare", "oauth"],
     url: "https://foursquare.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "freshbooks",
@@ -318,6 +546,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["freshbooks", "oauth"],
     url: "https://www.freshbooks.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "frontegg",
@@ -326,6 +560,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OIDC"],
     keywords: ["frontegg", "oauth"],
     url: "https://frontegg.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "fusionauth-dark",
@@ -334,6 +574,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["fusionauth-dark", "oauth"],
     url: "https://fusionauth.io/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "fusionauth-light",
@@ -342,6 +588,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["fusionauth-light", "oauth"],
     url: "https://fusionauth.io/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "gitlab",
@@ -350,6 +602,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["gitlab", "oauth"],
     url: "https://gitlab.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "google",
@@ -358,6 +616,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OIDC"],
     keywords: ["google", "oauth"],
     url: "https://google.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "hubspot",
@@ -366,6 +630,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["hubspot", "oauth"],
     url: "https://www.hubspot.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "huggingface",
@@ -374,6 +644,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OIDC"],
     keywords: ["hubspot", "oauth"],
     url: "https://www.huggingface.co/",
+    version: "v2.3.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "identity-server4",
@@ -382,6 +658,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OIDC"],
     keywords: ["identity-server4", "oauth"],
     url: "https://identityserver4.readthedocs.io/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "instagram",
@@ -390,6 +672,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["instagram", "oauth"],
     url: "https://instagram.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "kakao",
@@ -398,6 +686,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["kakao", "oauth"],
     url: "https://www.kakao.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "keycloak",
@@ -406,6 +700,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OIDC"],
     keywords: ["keycloak", "oauth"],
     url: "https://www.keycloak.org/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "kinde",
@@ -414,6 +714,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OIDC"],
     keywords: ["kinde", "oauth"],
     url: "https://www.kinde.com/",
+    version: "v2.3.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "line",
@@ -422,6 +728,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OIDC"],
     keywords: ["line", "oauth"],
     url: "https://www.line.me/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "linkedin",
@@ -430,6 +742,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OIDC"],
     keywords: ["linkedin", "oauth"],
     url: "https://www.linkedin.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "logto-dark",
@@ -438,6 +756,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OIDC"],
     keywords: ["logto", "dark", "oauth"],
     url: "https://logto.io/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "logto-light",
@@ -446,6 +770,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OIDC"],
     keywords: ["logto", "light", "oauth"],
     url: "https://logto.io/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "loops",
@@ -454,6 +784,12 @@ export const iconsData: IconDataType[] = [
     categories: ["Email"],
     keywords: ["loops", "oauth"],
     url: "https://www.loops.so/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "mailchimp",
@@ -462,6 +798,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["mailchimp", "oauth"],
     url: "https://www.mailchimp.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "mailgun",
@@ -470,6 +812,12 @@ export const iconsData: IconDataType[] = [
     categories: ["Email"],
     keywords: ["mailgun", "oauth"],
     url: "https://www.mailgun.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "mailru",
@@ -478,6 +826,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["mailru", "oauth"],
     url: "https://mail.ru/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "mastodon",
@@ -486,6 +840,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["mastodon", "oauth"],
     url: "https://www.joinmastodon.org",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "mattermost",
@@ -494,6 +854,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["mattermost", "oauth"],
     url: "https://mattermost.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "medium-dark",
@@ -502,6 +868,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["medium", "dark", "oauth"],
     url: "https://medium.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "medium-light",
@@ -510,6 +882,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["medium", "light", "oauth"],
     url: "https://medium.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "microsoft-entra-id",
@@ -518,6 +896,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OIDC"],
     keywords: ["microsoft-entra-id", "oauth"],
     url: "https://www.microsoft.com/en-in/security/business/microsoft-entra",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "naver",
@@ -526,6 +910,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["naver", "oauth"],
     url: "https://www.naver.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "netlify",
@@ -534,6 +924,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["netlify", "oauth"],
     url: "https://www.netlify.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "netsuite",
@@ -542,6 +938,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["netsuite", "oauth"],
     url: "https://www.netsuite.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "nextcloud",
@@ -550,6 +952,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["nextcloud", "oauth"],
     url: "https://www.nextcloud.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "nodemailer",
@@ -558,6 +966,12 @@ export const iconsData: IconDataType[] = [
     categories: ["Email"],
     keywords: ["nodemailer", "oauth"],
     url: "https://www.nodemailer.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "notion",
@@ -566,6 +980,12 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["notion", "oauth"],
     url: "https://www.notion.com/",
+    version: "v2.1.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "okta-light",
@@ -573,7 +993,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/okta-light.svg",
     categories: ["OIDC"],
     keywords: ["okta", "light", "oauth"],
-    url: "https://www.okta.com"
+    url: "https://www.okta.com",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "okta-dark",
@@ -581,7 +1007,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/okta-dark.svg",
     categories: ["OIDC"],
     keywords: ["okta", "dark", "oauth"],
-    url: "https://www.okta.com"
+    url: "https://www.okta.com",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "onelogin",
@@ -589,7 +1021,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/onelogin.svg",
     categories: ["OIDC"],
     keywords: ["onelogin", "oauth"],
-    url: "https://www.onelogin.com"
+    url: "https://www.onelogin.com",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "ory-hydra-dark",
@@ -597,7 +1035,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/ory-dark.svg",
     categories: ["OIDC"],
     keywords: ["ory-hydra", "dark", "OIDC"],
-    url: "https://www.ory.sh/hydra"
+    url: "https://www.ory.sh/hydra",
+    version: "v2.3.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "ory-hydra-light",
@@ -605,7 +1049,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/ory-light.svg",
     categories: ["OIDC"],
     keywords: ["ory-hydra", "light", "OIDC"],
-    url: "https://www.ory.sh/hydra"
+    url: "https://www.ory.sh/hydra",
+    version: "v2.3.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "osso",
@@ -613,7 +1063,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/osso.svg",
     categories: ["OAuth"],
     keywords: ["osso", "oauth"],
-    url: "https://github.com/enterprise-oss/osso"
+    url: "https://github.com/enterprise-oss/osso",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "osu",
@@ -621,7 +1077,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/osu.svg",
     categories: ["OAuth"],
     keywords: ["osu", "oauth"],
-    url: "https://osu.ppy.sh/"
+    url: "https://osu.ppy.sh/",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "passage",
@@ -629,23 +1091,27 @@ export const iconsData: IconDataType[] = [
     path: "icons/passage.svg",
     categories: ["OIDC"],
     keywords: ["passage", "oauth"],
-    url: "https://www.passage.id"
+    url: "https://www.passage.id",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
-    id: "patreon-dark",
-    name: "Patreon Dark",
-    path: "icons/patreon-dark.svg",
+    id: "patreon",
+    name: "Patreon",
+    path: "icons/patreon.svg",
     categories: ["OAuth"],
-    keywords: ["patreon", "dark", "oauth"],
-    url: "https://www.patreon.com"
-  },
-  {
-    id: "patreon-light",
-    name: "Patreon Light",
-    path: "icons/patreon-light.svg",
-    categories: ["OAuth"],
-    keywords: ["patreon", "light", "oauth"],
-    url: "https://www.patreon.com"
+    keywords: ["patreon", "oauth"],
+    url: "https://www.patreon.com",
+    version: ["v2.2.0", "v2.5.0"],
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "ping-id-light",
@@ -653,7 +1119,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/ping-id-light.svg",
     categories: ["OIDC"],
     keywords: ["ping-id", "light", "OIDC"],
-    url: "https://www.pingidentity.com/"
+    url: "https://www.pingidentity.com/",
+    version: "v2.3.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "ping-id-dark",
@@ -661,7 +1133,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/ping-id-dark.svg",
     categories: ["OIDC"],
     keywords: ["ping-id", "dark", "OIDC"],
-    url: "https://www.pingidentity.com/"
+    url: "https://www.pingidentity.com/",
+    version: "v2.3.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "pinterest",
@@ -669,7 +1147,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/pinterest.svg",
     categories: ["OAuth"],
     keywords: ["pinterest", "oauth"],
-    url: "https://www.pinterest.com"
+    url: "https://www.pinterest.com",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "postmark",
@@ -677,7 +1161,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/postmark.svg",
     categories: ["Email"],
     keywords: ["postmark", "oauth"],
-    url: "https://www.postmarkapp.com"
+    url: "https://www.postmarkapp.com",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "pipedrive",
@@ -685,7 +1175,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/pipedrive.svg",
     categories: ["OAuth"],
     keywords: ["pipedrive", "oauth"],
-    url: "https://pipedrive.readme.io/"
+    url: "https://pipedrive.readme.io/",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "reddit",
@@ -693,7 +1189,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/reddit.svg",
     categories: ["OAuth"],
     keywords: ["reddit", "oauth"],
-    url: "https://www.reddit.com"
+    url: "https://www.reddit.com",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "resend-dark",
@@ -701,7 +1203,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/resend-dark.svg",
     categories: ["Email"],
     keywords: ["resend", "dark", "Email"],
-    url: "https://www.resend.com"
+    url: "https://www.resend.com",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "resend-light",
@@ -709,7 +1217,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/resend-light.svg",
     categories: ["Email"],
     keywords: ["resend", "light", "Email"],
-    url: "https://www.resend.com"
+    url: "https://www.resend.com",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "roblox-light",
@@ -717,7 +1231,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/roblox-light.svg",
     categories: ["OIDC"],
     keywords: ["roblox", "light", "OIDC"],
-    url: "https://www.roblox.com"
+    url: "https://www.roblox.com",
+    version: "v2.3.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "roblox-dark",
@@ -725,7 +1245,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/roblox-dark.svg",
     categories: ["OIDC"],
     keywords: ["roblox", "dark", "OIDC"],
-    url: "https://www.roblox.com"
+    url: "https://www.roblox.com",
+    version: "v2.3.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "sailpoint",
@@ -733,7 +1259,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/sailpoint.svg",
     categories: ["OAuth"],
     keywords: ["sailpoint", "oauth"],
-    url: "https://www.sailpoint.com"
+    url: "https://www.sailpoint.com",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "salesforce",
@@ -741,7 +1273,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/salesforce.svg",
     categories: ["OIDC"],
     keywords: ["salesforce", "OIDC"],
-    url: "https://www.salesforce.com"
+    url: "https://www.salesforce.com",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "sendgrid",
@@ -749,7 +1287,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/sendgrid.svg",
     categories: ["Email"],
     keywords: ["sendgrid", "Email"],
-    url: "https://www.sendgrid.com"
+    url: "https://www.sendgrid.com",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "simplelogin",
@@ -757,7 +1301,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/simplelogin.svg",
     categories: ["OIDC"],
     keywords: ["simplelogin", "OIDC"],
-    url: "https://www.simplelogin.io"
+    url: "https://www.simplelogin.io",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "slack",
@@ -765,7 +1315,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/slack.svg",
     categories: ["OIDC"],
     keywords: ["slack", "OIDC"],
-    url: "https://www.slack.com"
+    url: "https://www.slack.com",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "spotify",
@@ -773,7 +1329,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/spotify.svg",
     categories: ["OAuth"],
     keywords: ["spotify", "oauth"],
-    url: "https://www.spotify.com"
+    url: "https://www.spotify.com",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "strava",
@@ -781,7 +1343,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/strava.svg",
     categories: ["OAuth"],
     keywords: ["strava", "oauth"],
-    url: "https://www.strava.com"
+    url: "https://www.strava.com",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "threads",
@@ -789,7 +1357,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/threads.svg",
     categories: ["OAuth"],
     keywords: ["threads", "oauth"],
-    url: "https://developers.facebook.com/docs/threads"
+    url: "https://developers.facebook.com/docs/threads",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "tiktok",
@@ -797,7 +1371,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/tiktok.svg",
     categories: ["OAuth"],
     keywords: ["tiktok", "oauth"],
-    url: "https://www.tiktok.com"
+    url: "https://www.tiktok.com",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "todoist",
@@ -805,7 +1385,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/todoist.svg",
     categories: ["OAuth"],
     keywords: ["todoist", "oauth"],
-    url: "https://www.todoist.com"
+    url: "https://www.todoist.com",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "trakt",
@@ -813,7 +1399,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/trakt.svg",
     categories: ["OAuth"],
     keywords: ["trakt", "oauth"],
-    url: "https://trakt.docs.apiary.io/#reference/authentication-oauth"
+    url: "https://trakt.docs.apiary.io/#reference/authentication-oauth",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "twitch",
@@ -821,7 +1413,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/twitch.svg",
     categories: ["OIDC"],
     keywords: ["twitch", "OIDC"],
-    url: "https://www.twitch.tv"
+    url: "https://www.twitch.tv",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "twitter",
@@ -829,7 +1427,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/twitter.svg",
     categories: ["OAuth"],
     keywords: ["twitter", "oauth"],
-    url: "https://www.x.com"
+    url: "https://www.x.com",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "united-effects",
@@ -837,7 +1441,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/united-effects.svg",
     categories: ["OIDC"],
     keywords: ["united-effects", "OIDC"],
-    url: "https://www.ue.ventures/"
+    url: "https://www.ue.ventures/",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "vipps-mobilepay",
@@ -845,7 +1455,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/vipps-mobilepay.svg",
     categories: ["OIDC"],
     keywords: ["vipps-mobilepay", "oauth"],
-    url: "https://www.vippsmobilepay.com"
+    url: "https://www.vippsmobilepay.com",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "vk",
@@ -853,7 +1469,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/vk.svg",
     categories: ["OAuth"],
     keywords: ["vk", "oauth"],
-    url: "https://www.vk.com"
+    url: "https://www.vk.com",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "webex",
@@ -861,7 +1483,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/webex.svg",
     categories: ["OAuth"],
     keywords: ["webex", "oauth"],
-    url: "https://www.webex.com"
+    url: "https://www.webex.com",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "wikimedia",
@@ -869,7 +1497,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/wikimedia.svg",
     categories: ["OAuth"],
     keywords: ["wikimedia", "oauth"],
-    url: "https://www.wikimedia.org"
+    url: "https://www.wikimedia.org",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "wordpress",
@@ -877,7 +1511,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/wordpress.svg",
     categories: ["OAuth"],
     keywords: ["wordpress", "oauth"],
-    url: "https://www.wordpress.com"
+    url: "https://www.wordpress.com",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "workos",
@@ -885,7 +1525,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/workos.svg",
     categories: ["OAuth"],
     keywords: ["workos", "oauth"],
-    url: "https://www.workos.com"
+    url: "https://www.workos.com",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "yandex",
@@ -893,7 +1539,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/yandex.svg",
     categories: ["OAuth"],
     keywords: ["yandex", "oauth"],
-    url: "https://www.yandex.com"
+    url: "https://www.yandex.com",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "zitadel",
@@ -901,7 +1553,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/zitadel.svg",
     categories: ["OIDC"],
     keywords: ["zitadel", "OIDC"],
-    url: "https://www.zitadel.com"
+    url: "https://www.zitadel.com",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "zoho",
@@ -909,7 +1567,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/zoho.svg",
     categories: ["OAuth"],
     keywords: ["zoho", "oauth"],
-    url: "https://www.zoho.com"
+    url: "https://www.zoho.com",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "zoom",
@@ -917,7 +1581,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/zoom.svg",
     categories: ["OAuth"],
     keywords: ["zoom", "oauth"],
-    url: "https://www.zoom.us"
+    url: "https://www.zoom.us",
+    version: "v2.2.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "azure-tables",
@@ -925,7 +1595,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/azure-tables.svg",
     categories: ["Adapter"],
     keywords: ["azure-tables", "adapter"],
-    url: "https://azure.microsoft.com/en-us/products/storage/tables"
+    url: "https://azure.microsoft.com/en-us/products/storage/tables",
+    version: "v2.4.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "d1",
@@ -933,7 +1609,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/d1.svg",
     categories: ["Adapter"],
     keywords: ["d1", "adapter"],
-    url: "https://www.developers.cloudflare.com/d1"
+    url: "https://www.developers.cloudflare.com/d1",
+    version: "v2.4.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "dgraph",
@@ -941,7 +1623,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/dgraph.svg",
     categories: ["Adapter"],
     keywords: ["dgraph", "adapter"],
-    url: "https://www.dgraph.io/"
+    url: "https://www.dgraph.io/",
+    version: "v2.4.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "drizzle",
@@ -949,7 +1637,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/drizzle.svg",
     categories: ["Adapter"],
     keywords: ["drizzle", "adapter"],
-    url: "https://orm.drizzle.team/"
+    url: "https://orm.drizzle.team/",
+    version: "v2.4.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "dynamodb",
@@ -957,7 +1651,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/dynamodb.svg",
     categories: ["Adapter"],
     keywords: ["dynamodb", "adapter"],
-    url: "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html"
+    url: "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html",
+    version: "v2.4.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "edgedb",
@@ -965,7 +1665,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/edgedb.svg",
     categories: ["Adapter"],
     keywords: ["edgedb", "adapter"],
-    url: "https://www.edgedb.com/"
+    url: "https://www.edgedb.com/",
+    version: "v2.4.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "fauna",
@@ -973,7 +1679,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/fauna.svg",
     categories: ["Adapter"],
     keywords: ["fauna", "adapter"],
-    url: "https://www.fauna.com/"
+    url: "https://www.fauna.com/",
+    version: "v2.4.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "firebase",
@@ -981,7 +1693,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/firebase.svg",
     categories: ["Adapter"],
     keywords: ["firebase", "adapter"],
-    url: "https://www.firebase.google.com/"
+    url: "https://www.firebase.google.com/",
+    version: "v2.4.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "hasura-dark",
@@ -989,7 +1707,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/hasura-dark.svg",
     categories: ["Adapter"],
     keywords: ["hasura", "dark", "adapter"],
-    url: "https://www.hasura.io/"
+    url: "https://www.hasura.io/",
+    version: "v2.4.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "hasura-light",
@@ -997,7 +1721,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/hasura-light.svg",
     categories: ["Adapter"],
     keywords: ["hasura", "light", "adapter"],
-    url: "https://www.hasura.io/"
+    url: "https://www.hasura.io/",
+    version: "v2.4.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "kysely",
@@ -1005,7 +1735,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/kysely.svg",
     categories: ["Adapter"],
     keywords: ["kysely", "adapter"],
-    url: "https://www.kysely.dev/"
+    url: "https://www.kysely.dev/",
+    version: "v2.4.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "mikro-orm",
@@ -1013,7 +1749,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/mikro-orm.svg",
     categories: ["Adapter"],
     keywords: ["mikro-orm", "adapter"],
-    url: "https://www.mikro-orm.io/"
+    url: "https://www.mikro-orm.io/",
+    version: "v2.4.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "mongodb",
@@ -1021,7 +1763,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/mongodb.svg",
     categories: ["Adapter"],
     keywords: ["mongodb", "adapter"],
-    url: "https://www.mongodb.com/"
+    url: "https://www.mongodb.com/",
+    version: "v2.4.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "neo4j",
@@ -1029,7 +1777,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/neo4j.svg",
     categories: ["Adapter"],
     keywords: ["neo4j", "adapter"],
-    url: "https://www.neo4j.com/"
+    url: "https://www.neo4j.com/",
+    version: "v2.4.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "neon",
@@ -1037,7 +1791,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/neon.svg",
     categories: ["Adapter"],
     keywords: ["neon", "adapter"],
-    url: "https://www.neon.tech/"
+    url: "https://www.neon.tech/",
+    version: "v2.4.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "pg",
@@ -1045,7 +1805,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/pg.svg",
     categories: ["Adapter"],
     keywords: ["pg", "adapter"],
-    url: "https://www.postgresql.org/"
+    url: "https://www.postgresql.org/",
+    version: "v2.4.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "pouchdb",
@@ -1053,7 +1819,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/pouchdb.svg",
     categories: ["Adapter"],
     keywords: ["pouchdb", "adapter"],
-    url: "https://www.pouchdb.com/"
+    url: "https://www.pouchdb.com/",
+    version: "v2.4.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "prisma-dark",
@@ -1061,7 +1833,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/prisma-dark.svg",
     categories: ["Adapter"],
     keywords: ["prisma", "dark", "adapter"],
-    url: "https://www.prisma.io/"
+    url: "https://www.prisma.io/",
+    version: "v2.4.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "prisma-light",
@@ -1069,7 +1847,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/prisma-light.svg",
     categories: ["Adapter"],
     keywords: ["prisma", "light", "adapter"],
-    url: "https://www.prisma.io/"
+    url: "https://www.prisma.io/",
+    version: "v2.4.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "sequelize",
@@ -1077,7 +1861,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/sequelize.svg",
     categories: ["Adapter"],
     keywords: ["sequelize", "adapter"],
-    url: "https://www.sequelize.org/"
+    url: "https://www.sequelize.org/",
+    version: "v2.4.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "supabase",
@@ -1085,7 +1875,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/supabase.svg",
     categories: ["Adapter"],
     keywords: ["supabase", "adapter"],
-    url: "https://www.supabase.com/"
+    url: "https://www.supabase.com/",
+    version: "v2.4.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "surrealdb",
@@ -1093,7 +1889,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/surrealdb.svg",
     categories: ["Adapter"],
     keywords: ["surrealdb", "adapter"],
-    url: "https://www.surrealdb.com/"
+    url: "https://www.surrealdb.com/",
+    version: "v2.4.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "typeorm",
@@ -1101,7 +1903,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/typeorm.svg",
     categories: ["Adapter"],
     keywords: ["typeorm", "adapter"],
-    url: "https://www.typeorm.io/"
+    url: "https://www.typeorm.io/",
+    version: "v2.4.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "unstorage",
@@ -1109,7 +1917,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/unstorage.svg",
     categories: ["Adapter"],
     keywords: ["unstorage", "adapter"],
-    url: "https://www.unstorage.unjs.io/"
+    url: "https://www.unstorage.unjs.io/",
+    version: "v2.4.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "upstash-redis",
@@ -1117,7 +1931,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/upstash-redis.svg",
     categories: ["Adapter"],
     keywords: ["upstash-redis", "adapter"],
-    url: "https://docs.upstash.com/redis"
+    url: "https://docs.upstash.com/redis",
+    version: "v2.4.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "xata",
@@ -1125,7 +1945,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/xata.svg",
     categories: ["Adapter"],
     keywords: ["xata", "adapter"],
-    url: "https://www.xata.io/"
+    url: "https://www.xata.io/",
+    version: "v2.4.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   {
     id: "signout",
@@ -1133,7 +1959,13 @@ export const iconsData: IconDataType[] = [
     path: "icons/signout.svg",
     categories: ["Others"],
     keywords: ["signout", "others"],
-    url: "https://www.example.com/"
+    url: "https://www.example.com/",
+    version: "v2.4.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
   },
   // {
   //   id: "",
@@ -1146,6 +1978,13 @@ export const iconsData: IconDataType[] = [
 ];
 
 export type Category = (typeof categoriesData)[number];
+export type Version = | `v${number}` | `v${number}.${number}` | `v${number}.${number}.${number}` | `v${number}.${number}.${number}-${string}`;
+
+export interface Author {
+  name: string;
+  userName: string
+  url?: string;
+}
 
 export interface IconDataType {
   id: string;
@@ -1153,5 +1992,7 @@ export interface IconDataType {
   path: string;
   categories: Category[];
   keywords: string[];
+  version: Version | Version[];
+  author: Author[];
   url: string;
 }
