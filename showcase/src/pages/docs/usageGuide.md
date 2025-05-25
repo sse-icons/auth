@@ -6,7 +6,7 @@ order: 2
 
 # Usage Guide
 
-If you're a designer or just want to grab icons without any installations, simply head over to the [icons page](https://sse-auth.github.io/icons/icons) and download your desired icons.
+If you're a designer or just want to grab icons without any installations, simply head over to the [icons page](https://sse-auth.github.io/icons/icons/All) and download your desired icons.
 
 For those with a React project, integrating `sse-icons` via our npm package is the best and easiest method.
 

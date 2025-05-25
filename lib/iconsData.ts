@@ -358,6 +358,25 @@ export const iconsData: IconDataType[] = [
     }],
   },
   {
+    id: "concept2",
+    name: "Concept2",
+    path: "icons/concept2.svg",
+    categories: ["OAuth"],
+    keywords: ["concept2", "oauth"],
+    url: "https://log.concept2.com/",
+    version: "v2.6.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    },
+    {
+      name: "SSE Official",
+      userName: "ssewofficial",
+      url: "https://github.com/ssewofficial"
+    }],
+  },
+  {
     id: "descope",
     name: "Descope",
     path: "icons/descope.svg",
@@ -456,13 +475,27 @@ export const iconsData: IconDataType[] = [
     }],
   },
   {
-    id: "eveonline",
-    name: "Eve Online",
-    path: "icons/eveonline.svg",
+    id: "eveonline-dark",
+    name: "Eve Online Dark",
+    path: "icons/eveonline-dark.svg",
     categories: ["OAuth"],
-    keywords: ["eveonline", "oauth"],
+    keywords: ["eveonline", "dark", "oauth"],
     url: "https://www.eveonline.com/",
-    version: "v2.1.0",
+    version: ["v2.1.0", "v2.6.0"],
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
+  },
+  {
+    id: "eveonline-light",
+    name: "Eve Online Light",
+    path: "icons/eveonline-light.svg",
+    categories: ["OAuth"],
+    keywords: ["eveonline", "light", "oauth"],
+    url: "https://www.eveonline.com/",
+    version: ["v2.1.0", "v2.6.0"],
     author: [{
       name: "SSE World",
       userName: "sseworld",
@@ -792,13 +825,27 @@ export const iconsData: IconDataType[] = [
     }],
   },
   {
-    id: "mailchimp",
-    name: "Mailchimp",
-    path: "icons/mailchimp.svg",
+    id: "mailchimp-dark",
+    name: "Mailchimp Dark",
+    path: "icons/mailchimp-dark.svg",
     categories: ["OAuth"],
-    keywords: ["mailchimp", "oauth"],
+    keywords: ["mailchimp", "dark", "oauth"],
     url: "https://www.mailchimp.com/",
-    version: "v2.1.0",
+    version: ["v2.1.0", "v2.6.0"],
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
+  },
+  {
+    id: "mailchimp-light",
+    name: "Mailchimp Light",
+    path: "icons/mailchimp-light.svg",
+    categories: ["OAuth"],
+    keywords: ["mailchimp", "light", "oauth"],
+    url: "https://www.mailchimp.com/",
+    version: ["v2.1.0", "v2.6.0"],
     author: [{
       name: "SSE World",
       userName: "sseworld",
@@ -1106,7 +1153,7 @@ export const iconsData: IconDataType[] = [
     categories: ["OAuth"],
     keywords: ["patreon", "oauth"],
     url: "https://www.patreon.com",
-    version: ["v2.2.0", "v2.5.0"],
+    version: ["v2.2.0", "v2.6.0"],
     author: [{
       name: "SSE World",
       userName: "sseworld",
@@ -1170,13 +1217,27 @@ export const iconsData: IconDataType[] = [
     }],
   },
   {
-    id: "pipedrive",
-    name: "Pipedrive",
-    path: "icons/pipedrive.svg",
+    id: "pipedrive-dark",
+    name: "Pipedrive Dark",
+    path: "icons/pipedrive-dark.svg",
     categories: ["OAuth"],
-    keywords: ["pipedrive", "oauth"],
+    keywords: ["pipedrive", "dark", "oauth"],
     url: "https://pipedrive.readme.io/",
-    version: "v2.2.0",
+    version: ["v2.2.0", "v2.6.0"],
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
+  },
+  {
+    id: "pipedrive-light",
+    name: "Pipedrive Light",
+    path: "icons/pipedrive-light.svg",
+    categories: ["OAuth"],
+    keywords: ["pipedrive", "light", "oauth"],
+    url: "https://pipedrive.readme.io/",
+    version: ["v2.2.0", "v2.6.0"],
     author: [{
       name: "SSE World",
       userName: "sseworld",
@@ -1352,13 +1413,27 @@ export const iconsData: IconDataType[] = [
     }],
   },
   {
-    id: "threads",
-    name: "Threads",
-    path: "icons/threads.svg",
+    id: "threads-dark",
+    name: "Threads Dark",
+    path: "icons/threads-dark.svg",
     categories: ["OAuth"],
-    keywords: ["threads", "oauth"],
+    keywords: ["threads", "dark", "oauth"],
     url: "https://developers.facebook.com/docs/threads",
-    version: "v2.2.0",
+    version: ["v2.2.0", "v2.6.0"],
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
+  },
+  {
+    id: "threads-light",
+    name: "Threads Light",
+    path: "icons/threads-light.svg",
+    categories: ["OAuth"],
+    keywords: ["threads", "light", "oauth"],
+    url: "https://developers.facebook.com/docs/threads",
+    version: ["v2.2.0", "v2.6.0"],
     author: [{
       name: "SSE World",
       userName: "sseworld",
@@ -1422,13 +1497,27 @@ export const iconsData: IconDataType[] = [
     }],
   },
   {
-    id: "twitter",
-    name: "Twitter",
-    path: "icons/twitter.svg",
+    id: "twitter-dark",
+    name: "Twitter Dark",
+    path: "icons/twitter-dark.svg",
     categories: ["OAuth"],
-    keywords: ["twitter", "oauth"],
+    keywords: ["twitter", "dark", "oauth"],
     url: "https://www.x.com",
-    version: "v2.2.0",
+    version: ["v2.2.0", "v2.6.0"],
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
+  },
+  {
+    id: "twitter-light",
+    name: "Twitter Light",
+    path: "icons/twitter-light.svg",
+    categories: ["OAuth"],
+    keywords: ["twitter", "light", "oauth"],
+    url: "https://www.x.com",
+    version: ["v2.2.0", "v2.6.0"],
     author: [{
       name: "SSE World",
       userName: "sseworld",
@@ -1492,13 +1581,13 @@ export const iconsData: IconDataType[] = [
     }],
   },
   {
-    id: "wikimedia",
-    name: "Wikimedia",
-    path: "icons/wikimedia.svg",
+    id: "wikimedia-dark",
+    name: "Wikimedia Dark",
+    path: "icons/wikimedia-dark.svg",
     categories: ["OAuth"],
-    keywords: ["wikimedia", "oauth"],
+    keywords: ["wikimedia", "dark", "oauth"],
     url: "https://www.wikimedia.org",
-    version: "v2.2.0",
+    version: ["v2.2.0", "v2.6.0"],
     author: [{
       name: "SSE World",
       userName: "sseworld",
@@ -1506,13 +1595,41 @@ export const iconsData: IconDataType[] = [
     }],
   },
   {
-    id: "wordpress",
-    name: "WordPress",
-    path: "icons/wordpress.svg",
+    id: "wikimedia-light",
+    name: "Wikimedia Light",
+    path: "icons/wikimedia-light.svg",
     categories: ["OAuth"],
-    keywords: ["wordpress", "oauth"],
+    keywords: ["wikimedia", "light", "oauth"],
+    url: "https://www.wikimedia.org",
+    version: ["v2.2.0", "v2.6.0"],
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
+  },
+  {
+    id: "wordpress-dark",
+    name: "WordPress Dark",
+    path: "icons/wordpress-dark.svg",
+    categories: ["OAuth"],
+    keywords: ["wordpress", "dark", "oauth"],
     url: "https://www.wordpress.com",
-    version: "v2.2.0",
+    version: ["v2.2.0", "v2.6.0"],
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }],
+  },
+  {
+    id: "wordpress-light",
+    name: "WordPress Light",
+    path: "icons/wordpress-light.svg",
+    categories: ["OAuth"],
+    keywords: ["wordpress", "light", "oauth"],
+    url: "https://www.wordpress.com",
+    version: ["v2.2.0", "v2.6.0"],
     author: [{
       name: "SSE World",
       userName: "sseworld",
@@ -1967,13 +2084,95 @@ export const iconsData: IconDataType[] = [
       url: "https://github.com/sseworld"
     }],
   },
+  {
+    id: "dailymotion",
+    name: "Dailymotion",
+    path: "icons/dailymotion.svg",
+    categories: ["OAuth"],
+    keywords: ["dailymotion", "OAuth"],
+    url: "https://www.dailymotion.com/",
+    version: "v2.6.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }, {
+      name: "SSE Official",
+      userName: "ssewofficial",
+      url: "https://github.com/ssewofficial"
+    }]
+  },
+  {
+    id: "dailymotion-light-wordmark",
+    name: "Dailymotion Light Watermark",
+    path: "icons/dailymotion-light-wordmark.svg",
+    categories: ["OAuth"],
+    keywords: ["dailymotion", "light", "wordmark", "OAuth"],
+    url: "https://www.dailymotion.com/",
+    version: "v2.6.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }, {
+      name: "SSE Official",
+      userName: "ssewofficial",
+      url: "https://github.com/ssewofficial"
+    }]
+  },
+  {
+    id: "dailymotion-dark-wordmark",
+    name: "Dailymotion Dark Watermark",
+    path: "icons/dailymotion-dark-wordmark.svg",
+    categories: ["OAuth"],
+    keywords: ["dailymotion", "dark", "wordmark", "OAuth"],
+    url: "https://www.dailymotion.com/",
+    version: "v2.6.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }, {
+      name: "SSE Official",
+      userName: "ssewofficial",
+      url: "https://github.com/ssewofficial"
+    }]
+  },
+  {
+    id: "wechat",
+    name: "WeChat",
+    path: "icons/wechat.svg",
+    categories: ["OAuth"],
+    keywords: ["wechat", "oauth"],
+    url: "https://developers.weixin.qq.com/doc/oplatform/Website_App/WeChat_Login/Authorized_Interface_Calling_UnionID.html",
+    version: "v2.6.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }, {
+      name: "SSE Official",
+      userName: "ssewofficial",
+      url: "https://github.com/ssewofficial"
+    }],
+  },
   // {
   //   id: "",
   //   name: "",
   //   path: "icons/.svg",
-  //   categories: ["Adapter"],
-  //   keywords: ["", "adapter"],
-  //   url: "https://www..com/"
+  //   categories: ["OAuth"],
+  //   keywords: ["", "oauth"],
+  //   url: "https://www..com",
+  //   version: "v2.6.0",
+  //   author: [{
+  //     name: "SSE World",
+  //     userName: "sseworld",
+  //     url: "https://github.com/sseworld"
+  //   }, {
+  //   name: "SSE Official",
+  //   userName: "ssewofficial",
+  //   url: "https://github.com/ssewofficial"
+  // }],
   // },
 ];
 

@@ -21,7 +21,7 @@ Before you begin:
 
 ## 💻 Development Setup
 
-1. Star and fork the [developer-icons](https://github.com/sse-auth/icons) repository
+1. Star and fork the [sse-icons](https://github.com/sse-auth/icons) repository
 2. Clone your fork of the repository:
    ```bash
    git clone https://github.com/<your-github-username>/sse-icons.git
