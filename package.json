@@ -26,7 +26,9 @@
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
     "dev:playground": "vite --host",
