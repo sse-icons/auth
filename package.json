@@ -3,7 +3,7 @@
   "version": "2.6.0",
   "description": "A collection of well-optimized SVG tech logos for developers and designers—customizable, scalable, and free.",
   "type": "module",
-  "homepage": "https://sse-auth.github.io/icons",
+  "homepage": "https://sse-icons.github.io/auth",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sse-auth/icons.git"

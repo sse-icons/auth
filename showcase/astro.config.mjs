@@ -7,8 +7,8 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://sse-auth.github.io",
-  base: "/icons/showcase",
+  site: "https://sse-icons.github.io",
+  base: "/auth/showcase",
   vite: {
     define: {
       __LIB_VERSION__: JSON.stringify(rootPkg.version),

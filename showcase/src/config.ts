@@ -1,5 +1,5 @@
 const publicBaseUrl = import.meta.env.PROD
-  ? "/icons"
-  : "/icons/showcase";
+  ? "/auth"
+  : "/auth/showcase";
 
 export { publicBaseUrl };

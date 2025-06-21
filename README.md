@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://sse-auth.github.io/icons/" target="_blank">
+  <a href="https://sse-icons.github.io/auth/" target="_blank">
     <img src="public/logo.png" alt="SSE Icons by SSE Auth" height="120" />
   </a>
   <h1>SSE Icons</h1>
@@ -76,11 +76,11 @@
 </div>
 
 <p align="center">
-  <a href="https://sse-auth.github.io/icons/">
+  <a href="https://sse-icons.github.io/auth/">
     Homepage
   </a>
   <span>&nbsp;⬥&nbsp;</span>
-  <a href="https://sse-auth.github.io/icons/icons/All">
+  <a href="https://sse-icons.github.io/auth/icons/All">
     Browse Icons
   </a>
   <span>&nbsp;⬥&nbsp;</span>
@@ -88,11 +88,11 @@
     NPM Package
   </a>
   <span>&nbsp;⬥&nbsp;</span>
-  <a href="https://sse-auth.github.io/icons/docs/usageGuide/">
+  <a href="https://sse-icons.github.io/auth/docs/usageGuide/">
     Usage
   </a>
   <span>&nbsp;⬥&nbsp;</span>
-  <a href="https://sse-auth.github.io/icons/docs/contributing/">
+  <a href="https://sse-icons.github.io/auth/docs/contributing/">
     Contributing
   </a>
 </p>
@@ -101,7 +101,7 @@
   <img src="public/cover-image-light.png" alt="Developer Icons" />
 </p>
 
-Welcome to **`sse-icons`**—a curated set of high-quality, customizable tech icons built for developers and designers. Fully compatible with TypeScript, ideal for React and Next.js, or downloadable from our [official website](https://sse-auth.github.io/icons/icons/All "Developer Icons Website") for design projects.
+Welcome to **`sse-icons`**—a curated set of high-quality, customizable tech icons built for developers and designers. Fully compatible with TypeScript, ideal for React and Next.js, or downloadable from our [official website](https://sse-icons.github.io/auth/icons/All "Developer Icons Website") for design projects.
 
 ## 🚀 Tech Stack
 
@@ -168,10 +168,10 @@ In this example, we import `AppleDark` and `Auth0` from the `@sse-auth/icons` pa
 
 ## 🤝 Contributing
 
-We welcome contributions of all kinds, whether you're looking to add new icons, improve existing ones, or enhance the overall project. To get started, refer to our [Contributing Guidelines](https://sse-auth.github.io/icons/docs/contributing).
+We welcome contributions of all kinds, whether you're looking to add new icons, improve existing ones, or enhance the overall project. To get started, refer to our [Contributing Guidelines](https://sse-icons.github.io/auth/docs/contributing).
 
 ## 📜 License
 
 Licensed under MIT License and copyrights reserved.
 
-For complete documentation, visit our [official documentation](https://sse-auth.github.io/icons/docs).
+For complete documentation, visit our [official documentation](https://sse-icons.github.io/auth/docs).

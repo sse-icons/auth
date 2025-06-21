@@ -14,7 +14,7 @@ const NoIconsFound = () => {
       <p className="text-lg opacity-75 max-w-[85vw] md:max-w-[600px]">
         Looks like we don't have the icons you're looking for. You can create an{" "}
         <a
-          href="https://github.com/sse-auth/icons/issues"
+          href="https://github.com/sse-icons/auth/issues"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-600 hover:underline"
@@ -23,7 +23,7 @@ const NoIconsFound = () => {
         </a>{" "}
         to notify the developers or{" "}
         <a
-          href="https://github.com/sse-auth/icons/docs/contributing/"
+          href="https://github.com/sse-icons/auth/docs/contributing/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-600 hover:underline"

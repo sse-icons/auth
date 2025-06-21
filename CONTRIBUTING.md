@@ -14,7 +14,7 @@ We appreciate your thought of contributing to **SSE-Icons**. We welcome contribu
 
 Before you begin:
 
-- Make sure you have a clear understanding of the project structure for which you can check out the [walkthrough](https://sse-auth.github.io/icons/docs/walkthrough/) doc
+- Make sure you have a clear understanding of the project structure for which you can check out the [walkthrough](https://sse-icons.github.io/auth/docs/walkthrough/) doc
 - Submit an issue/discussion for your proposed changes, assuming one does not already exist
 - Clearly describe the issue including steps to reproduce when it is a bug
 - And lastly, don't forget to have fun cuz we're having fun too.

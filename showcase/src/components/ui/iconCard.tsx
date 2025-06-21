@@ -28,7 +28,7 @@ export const IconCard = ({ icon }: { icon: IconDataType }) => {
   const downloadIcon = async (iconPath: string) => {
     setDownloadLoading(true);
     const response = await fetch(
-      `https://raw.githubusercontent.com/sse-auth/icons/main/${iconPath}`
+      `https://raw.githubusercontent.com/sse-icons/auth/main/${iconPath}`
     );
     const data = await response.text();
     const blob = new Blob([data], {

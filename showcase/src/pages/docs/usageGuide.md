@@ -6,7 +6,7 @@ order: 2
 
 # Usage Guide
 
-If you're a designer or just want to grab icons without any installations, simply head over to the [icons page](https://sse-auth.github.io/icons/icons/All) and download your desired icons.
+If you're a designer or just want to grab icons without any installations, simply head over to the [icons page](https://sse-icons.github.io/auth/icons/All) and download your desired icons.
 
 For those with a React project, integrating `sse-icons` via our npm package is the best and easiest method.
 
@@ -52,7 +52,7 @@ In this example, we import `AppleDark` and `Auth0` from the `@sse-auth/icons` pa
 
 <div style="margin-top: 12px" />
 
-To explore all the available icons, visit our [icons page](https://sse-auth.github.io/icons/icons/All "Icons | SSE Icons").
+To explore all the available icons, visit our [icons page](https://sse-icons.github.io/auth/icons/All "Icons | SSE Icons").
 
 <div style="margin-top: 20px">
 Happy coding! 🚀
