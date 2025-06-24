@@ -2194,4 +2194,9 @@ export interface IconDataType {
   version: Version | Version[];
   author: Author[];
   url: string;
+
+}
+
+export interface IconDataJSONType extends IconDataType {
+  body: string
 }

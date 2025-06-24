@@ -9,7 +9,8 @@ const __dirname = path.dirname(__filename);
 const sortedData = iconsData.sort((a, b) =>
   a.name.toLowerCase().localeCompare(b.name.toLowerCase())
 );
+
 fs.writeFileSync(
-  path.join(__dirname, "../sortedData.json"),
+  path.join(__dirname, "../../json/data.json"),
   JSON.stringify(sortedData)
 );
