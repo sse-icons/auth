@@ -26,6 +26,7 @@ dist-ssr
 #lib
 lib/icons/*.tsx
 lib/sortedData.json
+json/icons-array.json
 
 # pack
 sse-auth-icons-*.*.*.tgz

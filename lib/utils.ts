@@ -1,4 +1,4 @@
-import SI from "./main";
+import * as SI from "./main";
 
 export const capitalizeFirstletter = (str: string, invert?: boolean) =>
   invert
