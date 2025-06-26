@@ -1,5 +1,5 @@
 // import SI from "../../../../dist/main";
-import SI from "@sse-auth/icons";
+import * as SI from "@sse-auth/icons";
 import React, { useEffect, useState, type ReactNode } from "react";
 import { Copy, Copyright, Download } from "lucide-react";
 import type { IconDataType } from "../../../../lib/iconsData";
@@ -69,7 +69,6 @@ export const IconCard = ({ icon }: { icon: IconDataType }) => {
           <a
             key={index}
             href={`${publicBaseUrl}/icons/${category
-              .replace("DevOps & AI/ML", "DevOps")
               .replaceAll(" ", "-")}`}
           >
             <Badge
