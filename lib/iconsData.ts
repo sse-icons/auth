@@ -2156,6 +2156,222 @@ export const iconsData: IconDataType[] = [
       url: "https://github.com/ssewofficial"
     }],
   },
+  {
+    id: "authkit",
+    name: "AuthKit",
+    path: "icons/authkit.svg",
+    categories: ["OAuth"],
+    keywords: ["authkit", "oauth"],
+    url: "https://www.authkit.com",
+    version: "v3.0.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }, {
+      name: "SSE Official",
+      userName: "ssewofficial",
+      url: "https://github.com/ssewofficial"
+    }],
+  },
+  {
+    id: "authgear",
+    name: "Authgear",
+    path: "icons/authgear.svg",
+    categories: ["OIDC"],
+    keywords: ["authgear", "oidc"],
+    url: "https://www.authgear.com",
+    version: "v3.0.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }, {
+      name: "SSE Official",
+      userName: "ssewofficial",
+      url: "https://github.com/ssewofficial"
+    }],
+  },
+  {
+    id: "clerk",
+    name: "Clerk",
+    path: "icons/clerk.svg",
+    categories: ["OAuth"],
+    keywords: ["clerk", "oauth"],
+    url: "https://www.clerk.com",
+    version: "v3.0.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }, {
+      name: "SSE Official",
+      userName: "ssewofficial",
+      url: "https://github.com/ssewofficial"
+    }],
+  },
+  {
+    id: "cloudinary",
+    name: "Cloudinary",
+    path: "icons/cloudinary.svg",
+    categories: ["OAuth"],
+    keywords: ["cloudinary", "oauth"],
+    url: "https://www.cloudinary.com",
+    version: "v3.0.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }, {
+      name: "SSE Official",
+      userName: "ssewofficial",
+      url: "https://github.com/ssewofficial"
+    }],
+  },
+  {
+    id: "epicgames",
+    name: "epicgames",
+    path: "icons/epicgames.svg",
+    categories: ["OAuth"],
+    keywords: ["epicgames", "oauth"],
+    url: "https://www.epicgames.com",
+    version: "v3.0.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }, {
+      name: "SSE Official",
+      userName: "ssewofficial",
+      url: "https://github.com/ssewofficial"
+    }],
+  },
+  {
+    id: "feishu",
+    name: "Feishu",
+    path: "icons/feishu.svg",
+    categories: ["OAuth"],
+    keywords: ["feishu", "oauth"],
+    url: "https://www.feishu.cn",
+    version: "v3.0.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }, {
+      name: "SSE Official",
+      userName: "ssewofficial",
+      url: "https://github.com/ssewofficial"
+    }],
+  },
+  {
+    id: "gitee",
+    name: "Gitee",
+    path: "icons/gitee.svg",
+    categories: ["OAuth"],
+    keywords: ["gitee", "oauth"],
+    url: "https://www.gitee.com",
+    version: "v3.0.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }, {
+      name: "SSE Official",
+      userName: "ssewofficial",
+      url: "https://github.com/ssewofficial"
+    }],
+  },
+  {
+    id: "laravel",
+    name: "Laravel",
+    path: "icons/laravel.svg",
+    categories: ["OAuth"],
+    keywords: ["laravel", "oauth"],
+    url: "https://www.laravel.com",
+    version: "v3.0.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }, {
+      name: "SSE Official",
+      userName: "ssewofficial",
+      url: "https://github.com/ssewofficial"
+    }],
+  },
+  {
+    id: "lastfm-dark",
+    name: "Lastfm Dark",
+    path: "icons/lastfm-dark.svg",
+    categories: ["OAuth"],
+    keywords: ["lastfm", "dark", "oauth"],
+    url: "https://www.last.fm",
+    version: "v3.0.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }, {
+      name: "SSE Official",
+      userName: "ssewofficial",
+      url: "https://github.com/ssewofficial"
+    }],
+  },
+  {
+    id: "lastfm-light",
+    name: "Lastfm Light",
+    path: "icons/lastfm-light.svg",
+    categories: ["OAuth"],
+    keywords: ["lastfm", "light", "oauth"],
+    url: "https://www.last.fm",
+    version: "v3.0.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }, {
+      name: "SSE Official",
+      userName: "ssewofficial",
+      url: "https://github.com/ssewofficial"
+    }],
+  },
+  {
+    id: "notificationapi",
+    name: "NotificationAPI",
+    path: "icons/notificationapi.svg",
+    categories: ["OAuth"],
+    keywords: ["notificationapi", "oauth"],
+    url: "https://www.notificationapi.com",
+    version: "v3.0.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }, {
+      name: "SSE Official",
+      userName: "ssewofficial",
+      url: "https://github.com/ssewofficial"
+    }],
+  },
+  {
+    id: "seznam",
+    name: "Seznam",
+    path: "icons/seznam.svg",
+    categories: ["OAuth"],
+    keywords: ["seznam", "oauth"],
+    url: "https://www.seznam.com",
+    version: "v3.0.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }, {
+      name: "SSE Official",
+      userName: "ssewofficial",
+      url: "https://github.com/ssewofficial"
+    }],
+  },
   // {
   //   id: "",
   //   name: "",
@@ -2163,16 +2379,16 @@ export const iconsData: IconDataType[] = [
   //   categories: ["OAuth"],
   //   keywords: ["", "oauth"],
   //   url: "https://www..com",
-  //   version: "v2.6.0",
+  //   version: "v3.0.0",
   //   author: [{
   //     name: "SSE World",
   //     userName: "sseworld",
   //     url: "https://github.com/sseworld"
   //   }, {
-  //   name: "SSE Official",
-  //   userName: "ssewofficial",
-  //   url: "https://github.com/ssewofficial"
-  // }],
+  //     name: "SSE Official",
+  //     userName: "ssewofficial",
+  //     url: "https://github.com/ssewofficial"
+  //   }],
   // },
 ];
 
