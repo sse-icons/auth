@@ -2337,11 +2337,29 @@ export const iconsData: IconDataType[] = [
     }],
   },
   {
-    id: "notificationapi",
-    name: "NotificationAPI",
-    path: "icons/notificationapi.svg",
+    id: "notificationapi-dark",
+    name: "NotificationAPI Dark",
+    path: "icons/notificationapi-dark.svg",
     categories: ["OAuth"],
-    keywords: ["notificationapi", "oauth"],
+    keywords: ["notificationapi", "dark", "oauth"],
+    url: "https://www.notificationapi.com",
+    version: "v3.0.0",
+    author: [{
+      name: "SSE World",
+      userName: "sseworld",
+      url: "https://github.com/sseworld"
+    }, {
+      name: "SSE Official",
+      userName: "ssewofficial",
+      url: "https://github.com/ssewofficial"
+    }],
+  },
+  {
+    id: "notificationapi-light",
+    name: "NotificationAPI Light",
+    path: "icons/notificationapi-light.svg",
+    categories: ["OAuth"],
+    keywords: ["notificationapi", "light", "oauth"],
     url: "https://www.notificationapi.com",
     version: "v3.0.0",
     author: [{
